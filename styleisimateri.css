@@ -521,16 +521,20 @@
       height: 15px;
     }
     .icon{
-      width: 500px;
-      height: 500px;
+      width: 100px;
+      height: 100px;
     }
     .iconn{
-      width: 500px;
-      height: 500px;
+      width: 100px;
+      height: 100px;
     }
     .iconnn{
-      width: 500px;
-      height: 500px;
+      width: 100px;
+      height: 100px;
+    }
+    .homepth{
+      width: 20px;
+      height: 20px;  
     }
     .gmb{
       width: 190px;
