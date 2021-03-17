@@ -7,6 +7,7 @@ function cekkonstanta() {
          jawaban = "Jawabanmu salah, coba ingat lagi mana yang merupakan konstanta dari <var>x<sup>2</sup>";
        }
        document.getElementById("ketkonstanta").innerHTML = jawaban;
+       
      }
 
 function cekvariabel() {

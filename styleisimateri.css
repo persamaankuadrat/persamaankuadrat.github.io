@@ -436,6 +436,15 @@
   }
   .maripecahkan{
     width: 990px;
+    height: 1250px;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .marimencoba{
+    width: 990px;
     height: 900px;
     border: dotted #357030 5px;
     border-radius: 8px;
@@ -465,10 +474,25 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
+  .kotaklangkah2{
+    width: 300;
+    height:110px;
+    border: #357030 solid 2px;
+    border-radius: 8px;
+    padding:0px;
+    background-color: #8FBC8F;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
   .panah{
     height: 40px;
     width: 40px;
   }
+}
+.panah2{
+  height: 40px;
+  width: 30px;
+}
   #keta{
     margin-left: 6px;
     margin-top: 6px;
@@ -532,10 +556,7 @@
       width: 100px;
       height: 100px;
     }
-    .homepth{
-      width: 20px;
-      height: 20px;  
-    }
+  
     .gmb{
       width: 190px;
       height: 50px;
