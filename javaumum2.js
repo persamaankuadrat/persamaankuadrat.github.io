@@ -1,33 +1,89 @@
-function cekkonstanta() {
-      var x = document.getElementById("textkonstanta").value;
-       var jawaban;
-       if (x == "2") {
-         jawaban = "Berhasil, jawabanmu benar";
-       } else {
-         jawaban = "Jawabanmu salah, coba ingat lagi mana yang merupakan konstanta dari <var>x<sup>2</sup>";
-       }
-       document.getElementById("ketkonstanta").innerHTML = jawaban;
-       
-     }
+var slideIndex = 1;
+showSlides(slideIndex);
 
-function cekvariabel() {
-      var x = document.getElementById("textvariabel").value;
-       var jawaban;
-       if (x == "-3") {
-         jawaban = "Berhasil, jawabanmu benar";
-       } else {
-         jawaban = "Jawabanmu salah, coba ingat lagi mana yang merupakan konstanta dari <var>x<sup>2</sup>";
-       }
-       document.getElementById("ketvariabel").innerHTML = jawaban;
-     }
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-     function cekkoefisien() {
-      var x = document.getElementById("textkoefisien").value;
-       var jawaban;
-       if (x == "1") {
-         jawaban = "Berhasil, jawabanmu benar";
-       } else {
-         jawaban = "Jawabanmu salah, coba ingat lagi mana yang merupakan konstanta dari <var>x<sup>2</sup>";
-       }
-       document.getElementById("ketkoefisien").innerHTML = jawaban;
-     }
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active2", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active2";
+}
+
+
+
+  
+	function cek1no1var(){
+    form1.variabelno1.value= "A";
+    }
+    function cek2no1var(){
+    form1.variabelno1.value= "B";
+    }
+    function cek3no1var(){
+    form1.variabelno1.value= "C";
+    }
+  
+    function cekjawabanno1var(){
+    if(form1.variabelno1.value=='A'){
+    document.getElementById("tampilno1var").innerHTML="Selamat! jawabanmu benar";
+    document.getElementById("tampilno1var").style.color = "green";
+    }else{
+    document.getElementById("tampilno1var").innerHTML="Jawabanmu salah!! Variabel adalah lambang pengganti suatu bilangan yang belum diketahui nilainya";
+    document.getElementById("tampilno1var").style.color = "red";
+    }
+  }
+  
+    function cek1no1koef(){
+      form1.koefisienno1.value= "A";
+      }
+      function cek2no1koef(){
+      form1.koefisienno1.value= "B";
+      }
+      function cek3no1koef(){
+      form1.koefisienno1.value= "C";
+      }
+      function cekjawabanno1koef(){
+      if(form1.koefisienno1.value=='B'){
+      document.getElementById("tampilno1koef").innerHTML="Selamat! jawabanmu benar";
+      document.getElementById("tampilno1koef").style.color = "green";
+      }else{
+      document.getElementById("tampilno1koef").innerHTML="Jawabanmu salah!! koefisien yakni bilangan yang mengandung variabel";
+      document.getElementById("tampilno1koef").style.color = "red";
+      }
+    }
+  
+    function cek1no1kon(){
+      form1.konstantano1.value= "A";
+      }
+      function cek2no1kon(){
+      form1.konstantano1.value= "B";
+      }
+      function cek3no1kon(){
+      form1.konstantano1.value= "C";
+      }
+      function cekjawabanno1kon(){
+      if(form1.konstantano1.value=='C'){
+      document.getElementById("tampilno1kon").innerHTML="Selamat! jawabanmu benar";
+      document.getElementById("tampilno1kon").style.color = "green";
+      }else{
+      document.getElementById("tampilno1kon").innerHTML="Jawabanmu salah!! Konstanta berupa bilangan yang tidak memuat variabel";
+      document.getElementById("tampilno1kon").style.color = "red";
+      }
+    }
+  
