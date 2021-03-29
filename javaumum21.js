@@ -20,7 +20,7 @@ function cekb2(){
     y=y.replace(/\s+/g, '');
 
 
-if(y == "1"){
+if(y == "2"){
     document.getElementById("ketb2").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
   } else{
     document.getElementById("ketb2").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
