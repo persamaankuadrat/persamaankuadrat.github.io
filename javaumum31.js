@@ -6,9 +6,9 @@ function ceka3(){
 
 
 if(y == "-1"){
-    document.getElementById("keta3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
+    document.getElementById("keta3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;margin-left:5px;margin-top:8px;'>";
   } else{
-    document.getElementById("keta3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
+    document.getElementById("keta3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;margin-left:5px;margin-top:8px;'>";
   }
 
 }
@@ -21,9 +21,9 @@ function cekb3(){
 
 
 if(y == "-2"){
-    document.getElementById("ketb3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
+    document.getElementById("ketb3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;margin-left:44px;margin-top:-30px;'>";
   } else{
-    document.getElementById("ketb3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
+    document.getElementById("ketb3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;margin-left:44px;margin-top:-30px;'>";
   }
 
 }
@@ -36,9 +36,9 @@ function cekc3(){
 
 
 if(y == "1"){
-    document.getElementById("ketc3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
+    document.getElementById("ketc3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;margin-left:85px;margin-top:-30px;'>";
   } else{
-    document.getElementById("ketc3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
+    document.getElementById("ketc3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;margin-left:85px;margin-top:-30px;'>";
   }
 
 }
