@@ -3,60 +3,61 @@
     <div class="marimencoba">
         <img src="marimencobai.png" width="300" height="70" class="gmb">
 
-      <p>4.) Mari pecahkan masalah tentukan nilai <var>4x<sup>2</sup> + 16 = 0</var> dengan mengisi jawaban mu pada kolom berikut: </p>
-      &nbsp;&nbsp;&nbsp;<var>4x<sup>2</sup> + &nbsp; 16  = 0</var><br>
-      <img src="panah.png" class="panah2"><img src="panah.png" style="margin-left: 7px;">
+      <p>4.) Mari pecahkan masalah tentukan nilai <var>3y<sup>2</sup> - 7 + y = 0</var> dengan mengisi jawaban mu pada kolom berikut: </p>
+      &nbsp;&nbsp;&nbsp;<var>3y<sup>2</sup>&nbsp; - &nbsp;&nbsp;7 &nbsp;&nbsp;+ &nbsp;&nbsp;y = 0</var><br>
+      <img src="panah.png" class="panah2"><img src="panah.png" class="panah2"><img src="panah.png" class="panah2">
       <br>
-      &nbsp;&nbsp;            <input type="text" id="texta4" value="" placeholder="....." style=" width: 27px;">
-      &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="textc4" value="" placeholder="....." style=" width: 27px;">
+      &nbsp;&nbsp;<input type="text" id="texta4" value="" placeholder="....." style=" width: 27px;">
+      &nbsp;&nbsp;<input type="text" id="textc4" value="" placeholder="....." style=" width: 27px;">
+      &nbsp;&nbsp;<input type="text" id="textb4" value="" placeholder="....." style=" width: 27px;">
       <br>
-      <div id="keta4"></div> <div id="ketc4"></div>
+      <div id="keta4"></div> <div id="ketb4"></div> <div id="ketc4"></div>
       <button id="ceka4" onclick="ceka4()" style="margin-top: 30px;">Cek Nilai a</button>
       <button id="cekc4" onclick="cekc4()" style="margin-top: 30px;">Cek Nilai c</button>
-
+      <button id="cekb4" onclick="cekb4()" style="margin-top: 30px;">Cek Nilai b</button>
       <p>Sehingga kita dapat memperoleh variabel, koefisien, dan konstantanya adalah: </p>  
       
       <div class="pilihan4">
         <form name="form4">
           a) Variabel =
           <div class="qselections">
-          <button type="button" onclick="cek1no1var()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek2no1var()" >B</button>&nbsp;&nbsp;<var>2 , 3</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek3no1var()" >C</button>&nbsp;&nbsp;<var>- 2</var>
+          <button type="button" onclick="cek1no4var()" >A</button>&nbsp;&nbsp;<var>3 , 1</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek2no4var()" >B</button>&nbsp;&nbsp;<var>y<sup>2</sup></var>, <var>y</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek3no4var()" >C</button>&nbsp;&nbsp;<var>- 7</var>
         <br><br>
-          Jawaban anda :<input type="text" name="variabelno1" size="1">
+          Jawaban anda :<input type="text" name="variabelno4" size="1">
           </form1>
           <br>
-          <button type="button" onclick="cekjawabanno1var()" >cek jawaban</button>
-          <h3 id="tampilno1var"></h3>
+          <button type="button" onclick="cekjawabanno4var()" >cek jawaban</button>
+          <h3 id="tampilno4var"></h3>
           b) Koefisien =
           <div class="qselections">
-          <button type="button" onclick="cek1no1koef()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek2no1koef()" >B</button>&nbsp;&nbsp;<var>2 , 3</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek3no1koef()" >C</button>&nbsp;&nbsp;<var>- 2</var>
+          <button type="button" onclick="cek1no4koef()" >A</button>&nbsp;&nbsp;<var>3 , 1</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek2no4koef()" >B</button>&nbsp;&nbsp;<var>y<sup>2</sup></var>, <var>y</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek3no4koef()" >C</button>&nbsp;&nbsp;<var>- 7</var>
         <br><br>
-          Jawaban anda :<input type="text" name="koefisienno1" size="1">
+          Jawaban anda :<input type="text" name="koefisienno4" size="1">
           </form1>
           <br>
-          <button type="button" onclick="cekjawabanno1koef()" >cek jawaban</button>
-          <h3 id="tampilno1koef"></h3>
+          <button type="button" onclick="cekjawabanno4koef()" >cek jawaban</button>
+          <h3 id="tampilno4koef"></h3>
 
           c) Konstanta =
           <div class="qselections">
-          <button type="button" onclick="cek1no1kon()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek2no1kon()" >B</button>&nbsp;&nbsp;<var>2 , 3</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek3no1kon()" >C</button>&nbsp;&nbsp;<var>- 2</var>
+          <button type="button" onclick="cek1no4kon()" >A</button>&nbsp;&nbsp;<var>y<sup>2</sup></var>, <var>y</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek2no4kon()" >B</button>&nbsp;&nbsp;<var>3 , 1</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek3no4kon()" >C</button>&nbsp;&nbsp;<var>- 7</var>
         <br><br>
-          Jawaban anda :<input type="text" name="konstantano1" size="1">
+          Jawaban anda :<input type="text" name="konstantano4" size="1">
           </form1>
           <br>
-          <button type="button" onclick="cekjawabanno1kon()" >cek jawaban</button>
-          <h3 id="tampilno1kon"></h3>
+          <button type="button" onclick="cekjawabanno4kon()" >cek jawaban</button>
+          <h3 id="tampilno4kon"></h3>
               </div>
            </div>
          </div>
       
- <!--penutup div nomor satu-->
+ <!--penutup div nomor empat-->
 </div>
 <script src="javaumum41.js"></script>
 <script src="javaumum42.js"></script>

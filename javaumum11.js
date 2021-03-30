@@ -9,9 +9,6 @@ if(y == "2"){
     document.getElementById("keta").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
   } else{
     document.getElementById("keta").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
-  }else{
-    document.getElementById("keta").innerHTML="Jawabanmu salah!! Variabel adalah lambang pengganti suatu bilangan yang belum diketahui nilainya";
-    document.getElementById("keta").style.color = "red";
     
   }
 
