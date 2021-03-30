@@ -170,6 +170,7 @@
     height: 412px;
   }
   
+  
   .bttn{
     background-color:#00FFFF; /* warna buttonnya YG EVALUASI*/
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -228,6 +229,7 @@
     margin-left: 350px;
   }
 
+
 .isimateri{
   background-color: #DAA520; /*ISI MATERI SUB BAB*/
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -263,6 +265,7 @@
 .hilang{
   display:none;
   }
+  
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
