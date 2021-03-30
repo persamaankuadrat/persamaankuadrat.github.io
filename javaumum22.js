@@ -40,7 +40,7 @@ function showSlides(n) {
     }
   
     function cekjawabanno2var(){
-    if(form2.variabelno2.value=='A'){
+    if(form2.variabelno2.value=='C'){
     document.getElementById("tampilno2var").innerHTML="Selamat! jawabanmu benar";
     document.getElementById("tampilno2var").style.color = "green";
     }else{

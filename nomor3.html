@@ -3,63 +3,63 @@
     <div class="marimencoba">
         <img src="marimencobai.png" width="300" height="70" class="gmb">
 
-      <p>3.) Mari pecahkan masalah tentukan nilai <var>2x<sup>2</sup> + 3x - 2 = 0</var> dengan mengisi jawaban mu pada kolom berikut: </p>
-      &nbsp;&nbsp;&nbsp;<var>2x<sup>2</sup> + 3x -&nbsp; 2 = 0</var><br>
-      <img src="panah.png" class="panah2"><img src="panah.png" class="panah2"><img src="panah.png" class="panah2">
-      <br>
-      &nbsp;&nbsp;<input type="text" id="texta" value="" placeholder="....." style=" width: 27px;">
-      &nbsp;&nbsp;<input type="text" id="textb" value="" placeholder="....." style=" width: 27px;">
-      &nbsp;&nbsp;<input type="text" id="textc" value="" placeholder="....." style=" width: 27px;">
-      <br>
-      <div id="keta"></div> <div id="ketb"></div> <div id="ketc"></div>
-      <button id="ceka" onclick="ceka()" style="margin-top: 30px;">Cek Nilai a</button>
-      <button id="cekb" onclick="cekb()" style="margin-top: 30px;">Cek Nilai b</button>
-      <button id="cekc" onclick="cekc()" style="margin-top: 30px;">Cek Nilai c</button>
+      <p>3.) Mari pecahkan masalah tentukan nilai <var>- x<sup>2</sup> - 2x + 1 = 0</var> dengan mengisi jawaban mu pada kolom berikut: </p>
+            &nbsp;&nbsp;&nbsp;<var>- x<sup>2</sup> &nbsp;&nbsp;- 2x &nbsp;&nbsp;+&nbsp; 1 = 0</var><br>
+            <img src="panah.png" class="panah2"><img src="panah.png" class="panah2"><img src="panah.png" class="panah2">
+            <br>
+            &nbsp;&nbsp;<input type="text" id="texta3" value="" placeholder="....." style=" width: 27px;">
+            &nbsp;&nbsp;<input type="text" id="textb3" value="" placeholder="....." style=" width: 27px;">
+            &nbsp;&nbsp;<input type="text" id="textc3" value="" placeholder="....." style=" width: 27px;">
+            <br>
+            <div id="keta3"></div> <div id="ketb3"></div> <div id="ketc3"></div>
+            <button id="ceka3" onclick="ceka3()" style="margin-top: 30px;">Cek Nilai a</button>
+            <button id="cekb3" onclick="cekb3()" style="margin-top: 30px;">Cek Nilai b</button>
+            <button id="cekc3" onclick="cekc3()" style="margin-top: 30px;">Cek Nilai c</button></p>
 
       <p>Sehingga kita dapat memperoleh variabel, koefisien, dan konstantanya adalah: </p>  
       
-      <div class="pilihan1">
-        <form name="form1">
+      <div class="pilihan3">
+        <form name="form3">
           a) Variabel =
           <div class="qselections">
-          <button type="button" onclick="cek1no1var()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek2no1var()" >B</button>&nbsp;&nbsp;<var>2 , 3</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek3no1var()" >C</button>&nbsp;&nbsp;<var>- 2</var>
+          <button type="button" onclick="cek1no3var()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek2no3var()" >B</button>&nbsp;&nbsp;<var>1</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek3no3var()" >C</button>&nbsp;&nbsp;<var>-1 , -2</var>
         <br><br>
-          Jawaban anda :<input type="text" name="variabelno1" size="1">
-          </form1>
+          Jawaban anda :<input type="text" name="variabelno3" size="1">
+          </form3>
           <br>
-          <button type="button" onclick="cekjawabanno1var()" >cek jawaban</button>
-          <h3 id="tampilno1var"></h3>
+          <button type="button" onclick="cekjawabanno3var()" >cek jawaban</button>
+          <h3 id="tampilno3var"></h3>
           b) Koefisien =
           <div class="qselections">
-          <button type="button" onclick="cek1no1koef()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek2no1koef()" >B</button>&nbsp;&nbsp;<var>2 , 3</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek3no1koef()" >C</button>&nbsp;&nbsp;<var>- 2</var>
+          <button type="button" onclick="cek1no3koef()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek2no3koef()" >B</button>&nbsp;&nbsp;<var>1</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek3no3koef()" >C</button>&nbsp;&nbsp;<var>-1 , -2</var>
         <br><br>
-          Jawaban anda :<input type="text" name="koefisienno1" size="1">
-          </form1>
+          Jawaban anda :<input type="text" name="koefisienno3" size="1">
+          </form3>
           <br>
-          <button type="button" onclick="cekjawabanno1koef()" >cek jawaban</button>
-          <h3 id="tampilno1koef"></h3>
+          <button type="button" onclick="cekjawabanno3koef()" >cek jawaban</button>
+          <h3 id="tampilno3koef"></h3>
 
           c) Konstanta =
           <div class="qselections">
-          <button type="button" onclick="cek1no1kon()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek2no1kon()" >B</button>&nbsp;&nbsp;<var>2 , 3</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button type="button" onclick="cek3no1kon()" >C</button>&nbsp;&nbsp;<var>- 2</var>
+          <button type="button" onclick="cek1no3kon()" >A</button>&nbsp;&nbsp;<var>x<sup>2</sup></var>, <var>x</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek2no3kon()" >B</button>&nbsp;&nbsp;<var>-1 , -2</var>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" onclick="cek3no3kon()" >C</button>&nbsp;&nbsp;<var>1</var>
         <br><br>
-          Jawaban anda :<input type="text" name="konstantano1" size="1">
-          </form1>
+          Jawaban anda :<input type="text" name="konstantano3" size="1">
+          </form3>
           <br>
-          <button type="button" onclick="cekjawabanno1kon()" >cek jawaban</button>
-          <h3 id="tampilno1kon"></h3>
+          <button type="button" onclick="cekjawabanno3kon()" >cek jawaban</button>
+          <h3 id="tampilno3kon"></h3>
               </div>
            </div>
          </div>
       
- <!--penutup div nomor satu-->
+ <!--penutup div nomor tiga-->
 </div>
-<script src="javaumum.js"></script>
-<script src="javaumum2.js"></script>
+<script src="javaumum31.js"></script>
+<script src="javaumum32.js"></script>
  </html>
