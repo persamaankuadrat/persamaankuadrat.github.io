@@ -400,7 +400,16 @@
   }
   .maripecahkan{
     width: 990px;
-    height: 910px;
+    height: 1272px;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .maripecahkanA{
+    width: 990px;
+    height: 791px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 10px;
@@ -408,7 +417,7 @@
     font-family: 'Times New Roman', Times, serif;
   }
   .marimencoba{
-    width: 979px;
+    width: 988px;
     height: 861px;
     border: dotted #357030 5px;
     border-radius: 8px;
