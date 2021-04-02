@@ -400,7 +400,7 @@
   }
   .maripecahkan{
     width: 990px;
-    height: 1250px;
+    height: 910px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 10px;
@@ -514,6 +514,7 @@ img {vertical-align: middle;}
   color: black;
 }
 
+
 .pre, .nex {
   cursor: pointer;
   position: absolute;
@@ -528,6 +529,11 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
+.dot-container {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
 
 .nex {
   position: absolute;
