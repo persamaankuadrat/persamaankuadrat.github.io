@@ -160,16 +160,7 @@
     color: white;
     font-size: 20px;
   }
-  .divscratch{
-    overflow-y:hidden;
-    height: 372px;
-  }
 
-  .scratch{
-    margin-top: -44px;
-    width: 60%;
-    height: 412px;
-  }
   
   
   .bttn{
@@ -253,6 +244,7 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 #isimateri {
   width: 100%;
   height: 230px;
@@ -263,10 +255,14 @@
   margin-top: 10px;
   padding: 10px;
 }
+
+.jjj{
+  height: 130px !important;
+}
 .hilang{
   display:none;
   }
-  
+
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
