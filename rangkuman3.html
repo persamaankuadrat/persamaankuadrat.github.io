@@ -8,6 +8,8 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 </head>
 <body>
 
@@ -28,10 +30,10 @@
         <i class="fa fa-caret-down"></i>
       </button>
 
-      <div class="dropdown-content dropdown-containerr">
+      <div class="dropdown-content dropdown-container">
         <a href="umum.html">1. Bentuk Umum</a>
         <a href="bukanpenyelesaian.html">2. Penyelesaian dan Bukan Penyelesaian</a>
-        <a href="rangkuman1.html" class="hvr">Rangkuman</a>
+        <a href="rangkuman1.html">Rangkuman</a>
         <a href="materi.html">Kuis</a>
       </div>
 
@@ -55,11 +57,11 @@
         <button class="dropbtn dropdown-btn" onclick="ftampil()">C. Sifat-sifat akar
           <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content dropdown-container">
+        <div class="dropdown-content dropdown-containerr">
           <a href="materi.html">1. Diskriminan</a>
           <a href="materi.html">2. Jumlah dan Hasil Kali</a>
           <a href="materi.html">3. Hubungan Sifat Akar dan Koefisien Persamaan</a>
-          <a href="rangkuman3.html">Rangkuman</a>
+          <a href="rangkuman3.html"class="hvr">Rangkuman</a>
           <a href="materi.html">Kuis</a>
         </div>
 
@@ -81,27 +83,51 @@
       </nav>
   <article>
       <div class="subsection">
-        A. Pengertian Persamaan Kuadrat
+        C. Sifat-sifat Akar
       </div>
       <h1>Rangkuman</h1>
-      <ol type="a"></ol>
-        <li>Persamaan kuadrat disebut juga persamaan pangkat dua.</li>
-        <li>Pengertian persamaan kuadrat: <br>
-          &emsp;Persamaan kuadrat merupakan salah satu persamaan matematika dari variabel yang mempunyai pangkat<br>&emsp;tertinggi dua, dengan <var>x</var> merupakan variabel
-        <var>a</var>, b, merupakan koefisien dan c merupakan konstanta.</li>
-        <li>Bentuk umum persamaan kuadrat adalah:<br>
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            \[ax^2 + bx + c = 0\], dengan \[a \Leftrightarrow 0\]</li>
-        <li>Bentuk \[ax^2 + bx = 0\] disebut persamaan kuadrat yang tidak lengkap. Bentuk \[ax^2 + c = 0\] disebut persamaan kuadrat sempurna.</li>
-      </ol>
-<br>
-<br>
-<br>
-          
-                      
-<div class="arahanrangkuman">*Klik tombol Selanjutnya di bawah ini untuk melanjutkan materi</div>             
-  </article>
+  
+      <ol type="1"></ol>
+        <li>Misalkan persamaan kuadrat \[ax^2 + bx + c = 0\], dengan \[a \Leftrightarrow 0\], mempunyai nilai \[D = b^2 - 4ac\], berlaku :</li><br>
 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Jika \[D > 0\], maka persamaan kuadrat mempunyai 2 akar real berbeda.<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Jika \[D = 0 \], maka persamaan kuadrat mempunyai 1 akar real yang sama (kembar).<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Jika \[D < 0 \], maka persamaan kuadrat tidak mempunyai akar real.<br><br>
+        <li>Misalkan persamaan kuadrat \[ax^2 + bx + c = 0\], dengan \[a \Leftrightarrow 0\], mempunyai akar-akar \[x_{1}\] dan \[x_{2}\], maka :</li><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Jumlah akar-akar: \[x_{1}+x_{2}=-\frac{b}{a} \]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Hasil kali akar-akar: \[x_{1}\times x_{2}=\frac{c}{a} \]
+        <br><br>
+        <li>Rumus yang berhubungan dengan jumlah dan hasil kali akar :</li><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[x_{1}^{2}+x_{2}^{2}=\left ( x_{1}+x_{2} \right )^{2}-2x_{1}\cdot x_{2}\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[x_{1}^{3}+x_{2}^{3}=\left ( x_{1}+x_{2} \right )^{3}-3x_{1}\cdot x_{2}\left ( x_{1}+x_{2} \right )\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\frac{1}{x_{1}}+\frac{1}{x_{2}}=\frac{x_{1}+x_{2}}{x_{1}\cdot x_{2}}\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\frac{x_{2}}{x_{1}}+\frac{x_{1}}{x_{2}}=\frac{x_{1}^{2}+x_{2}^{2}}{x_{1}\cdot x_{2}}\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[x_{1}-x_{2}=\frac{\pm \sqrt{D}}{a}\]<br><br>
+        <li>Hubungan sifat akar dan koefisien persamaan</li><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Jika kedua akarnya sama atau kembar \[\left ( x_{1}=x_{2} \right )\], maka \[D = 0\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Jika kedua akarnya berlawanan \[\left ( x_{1}=-x_{2} \right )\], maka \[b=0\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Jika kedua akar-akarnya berkebalikan \[\left ( x_{1}=\frac{1}{x_{2}} \right )\], maka \[a=c\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Kedua akar positif jika \[-\frac{b}{a}>0\]<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Kedua akar negatif jika \[-\frac{b}{a}< 0\]<br><br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </ol>
+<br>
+
+          
+<div class="arahanrangkuman">*Klik tombol Selanjutnya di bawah ini untuk melanjutkan materi</div>                  
+                    
+  </article>
+  
 </section>
 
 <footer>
