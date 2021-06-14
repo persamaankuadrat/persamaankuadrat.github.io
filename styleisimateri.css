@@ -426,6 +426,15 @@
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
   }
+  .marimencoba{
+    width: 990px;
+    height: 2000px;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+  }
   .pertanyaan{
     width: 988px;
     height: 891px;
@@ -434,8 +443,8 @@
     padding: 14px;
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: -22px;
-    margin-top: 900px;
+    margin-left: -6px;
+
     
   }
   .marimencobasubsub1{
