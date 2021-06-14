@@ -274,6 +274,12 @@
   color: #127c12;
   font-style: italic;
   }
+  .arahanumum{
+    font-weight: 600;
+    color: #127c12;
+    font-style: italic;
+    margin-top: 1000px;
+    }
   .arahansubsub1{
     font-weight: 600;
     color: #127c12;
@@ -443,7 +449,8 @@
     padding: 14px;
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: -6px;
+    margin-left: -2px;
+    margin-top: 123px;
 
     
   }
