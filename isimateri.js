@@ -23,3 +23,10 @@ var xx= document.querySelector('.isimateri');
 xx.addEventListener("click",function(){
   x.classList.toggle("hilang");
 })
+
+let jjj = document.querySelector(".jjj");
+let btn =document.querySelector(".btn");
+btn.addEventListener("click", function(){
+	console.log("ok")
+	jjj.classList.toggle("hilang");
+} );

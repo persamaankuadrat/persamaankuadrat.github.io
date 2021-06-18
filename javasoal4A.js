@@ -26,9 +26,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if (i==0) {
 
-      if(jawaban[0].value.length==2){
+      if(jawaban[0].value.length==1){
 
-        if(jawaban[0].value==-1){
+        if(jawaban[0].value==2){
           //box warna
           if (jawaban[0].className.indexOf('boxhijau') == -1) {
             if (jawaban[0].className.indexOf('boxmerah') == -1) {
@@ -55,9 +55,9 @@ for (let i=0; i<jawaban.length; i++){
     }
     if (i==1) {
 
-      if(jawaban[1].value.length==2){
+      if(jawaban[1].value.length==1){
 
-        if(jawaban[1].value==-1){
+        if(jawaban[1].value==2){
           //box warna
           if (jawaban[1].className.indexOf('boxhijau') == -1) {
             if (jawaban[1].className.indexOf('boxmerah') == -1) {
@@ -89,7 +89,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[2].value.length==1){
 
-        if(jawaban[2].value==1){
+        if(jawaban[2].value==4){
           //boxwarna
 
           if (jawaban[2].className.indexOf('boxhijau') == -1) {
@@ -119,7 +119,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[3].value.length==2){
 
-        if(jawaban[3].value==-3){
+        if(jawaban[3].value==18){
           //boxwarna
           if (jawaban[3].className.indexOf('boxhijau') == -1) {
             if (jawaban[3].className.indexOf('boxmerah') == -1) {
@@ -151,9 +151,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==4){
 
-      if(jawaban[4].value.length==1){
+      if(jawaban[4].value.length==2){
 
-        if(jawaban[4].value==0){
+        if(jawaban[4].value==40){
           //boxwarna
          
           if (jawaban[4].className.indexOf('boxhijau') == -1) {
@@ -185,9 +185,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==5){
 
-      if(jawaban[5].value.length==2){
+      if(jawaban[5].value.length==1){
 
-        if(jawaban[5].value==-5){
+        if(jawaban[5].value==3){
           //boxwarna
           if (jawaban[5].className.indexOf('boxhijau') == -1) {
             if (jawaban[5].className.indexOf('boxmerah') == -1) {
@@ -213,9 +213,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==6){
 
-      if(jawaban[6].value.length==2){
+      if(jawaban[6].value.length==1){
     
-        if(jawaban[6].value==-5){
+        if(jawaban[6].value==3){
           //boxwarna
           console.log("ok")
           if (jawaban[6].className.indexOf('boxhijau') == -1) {
@@ -247,9 +247,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==7){
 
-      if(jawaban[7].value.length==2){
+      if(jawaban[7].value.length==1){
 
-        if(jawaban[7].value==25){
+        if(jawaban[7].value==9){
           //boxwarna
 
           if (jawaban[7].className.indexOf('boxhijau') == -1) {
@@ -279,9 +279,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==8){
 
-      if(jawaban[8].value.length==3){
+      if(jawaban[8].value.length==2){
 
-        if(jawaban[8].value==-15){
+        if(jawaban[8].value==27){
           //boxwarna
           if (jawaban[8].className.indexOf('boxhijau') == -1) {
             if (jawaban[8].className.indexOf('boxmerah') == -1) {
@@ -313,7 +313,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[9].value.length==2){
 
-        if(jawaban[9].value==12){
+        if(jawaban[9].value==54){
           //boxwarna
           if (jawaban[9].className.indexOf('boxhijau') == -1) {
             if (jawaban[9].className.indexOf('boxmerah') == -1) {

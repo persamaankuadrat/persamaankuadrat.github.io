@@ -26,9 +26,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if (i==0) {
 
-      if(jawaban[0].value.length==2){
+      if(jawaban[0].value.length==1){
 
-        if(jawaban[0].value==-1){
+        if(jawaban[0].value==1){
           //box warna
           if (jawaban[0].className.indexOf('boxhijau') == -1) {
             if (jawaban[0].className.indexOf('boxmerah') == -1) {
@@ -55,9 +55,8 @@ for (let i=0; i<jawaban.length; i++){
     }
     if (i==1) {
 
-      if(jawaban[1].value.length==2){
-
-        if(jawaban[1].value==-1){
+      if(jawaban[1].value.length==1){
+        if(jawaban[1].value==1){
           //box warna
           if (jawaban[1].className.indexOf('boxhijau') == -1) {
             if (jawaban[1].className.indexOf('boxmerah') == -1) {
@@ -89,7 +88,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[2].value.length==1){
 
-        if(jawaban[2].value==1){
+        if(jawaban[2].value==2){
           //boxwarna
 
           if (jawaban[2].className.indexOf('boxhijau') == -1) {
@@ -117,9 +116,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==3){
 
-      if(jawaban[3].value.length==2){
+      if(jawaban[3].value.length==1){
 
-        if(jawaban[3].value==-3){
+        if(jawaban[3].value==4){
           //boxwarna
           if (jawaban[3].className.indexOf('boxhijau') == -1) {
             if (jawaban[3].className.indexOf('boxmerah') == -1) {
@@ -187,7 +186,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[5].value.length==2){
 
-        if(jawaban[5].value==-5){
+        if(jawaban[5].value==-3){
           //boxwarna
           if (jawaban[5].className.indexOf('boxhijau') == -1) {
             if (jawaban[5].className.indexOf('boxmerah') == -1) {
@@ -215,7 +214,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[6].value.length==2){
     
-        if(jawaban[6].value==-5){
+        if(jawaban[6].value==-3){
           //boxwarna
           console.log("ok")
           if (jawaban[6].className.indexOf('boxhijau') == -1) {
@@ -247,9 +246,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==7){
 
-      if(jawaban[7].value.length==2){
+      if(jawaban[7].value.length==1){
 
-        if(jawaban[7].value==25){
+        if(jawaban[7].value==9){
           //boxwarna
 
           if (jawaban[7].className.indexOf('boxhijau') == -1) {
@@ -281,7 +280,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[8].value.length==3){
 
-        if(jawaban[8].value==-15){
+        if(jawaban[8].value==-12){
           //boxwarna
           if (jawaban[8].className.indexOf('boxhijau') == -1) {
             if (jawaban[8].className.indexOf('boxmerah') == -1) {
@@ -313,7 +312,7 @@ for (let i=0; i<jawaban.length; i++){
 
       if(jawaban[9].value.length==2){
 
-        if(jawaban[9].value==12){
+        if(jawaban[9].value==18){
           //boxwarna
           if (jawaban[9].className.indexOf('boxhijau') == -1) {
             if (jawaban[9].className.indexOf('boxmerah') == -1) {
@@ -322,10 +321,7 @@ for (let i=0; i<jawaban.length; i++){
               jawaban[9].className = jawaban[9].className.replace('boxmerah', 'boxhijau');
             }
           }
-          //lanjut
-          setTimeout(function (){
-            document.getElementById('lanjut6').className = document.getElementById('lanjut6').className.replace('hilang','');
-          }, 500)
+          
         } else{
 
           if (jawaban[9].className.indexOf('boxmerah') == -1) {
@@ -343,9 +339,9 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==10){
 
-      if(jawaban[10].value.length==12){
+      if(jawaban[10].value.length==3){
 
-        if(jawaban[10].value== 'penyelesaian'){
+        if(jawaban[10].value==-12){
           //boxwarna
           if (jawaban[10].className.indexOf('boxhijau') == -1) {
             if (jawaban[10].className.indexOf('boxmerah') == -1) {
@@ -354,7 +350,10 @@ for (let i=0; i<jawaban.length; i++){
               jawaban[10].className = jawaban[10].className.replace('boxmerah', 'boxhijau');
             }
           }
-
+          //lanjut
+          setTimeout(function (){
+          document.getElementById('lanjut6').className = document.getElementById('lanjut6').className.replace('hilang','');
+          }, 500)
         } else{
 
           if (jawaban[10].className.indexOf('boxmerah') == -1) {
@@ -370,6 +369,66 @@ for (let i=0; i<jawaban.length; i++){
 
     }
 
+    if(i==11){
+
+      if(jawaban[11].value.length==1){
+
+        if(jawaban[11].value==0){
+          //boxwarna
+          if (jawaban[11].className.indexOf('boxhijau') == -1) {
+            if (jawaban[11].className.indexOf('boxmerah') == -1) {
+              jawaban[11].className += ' boxhijau';
+            } else {
+              jawaban[11].className = jawaban[10].className.replace('boxmerah', 'boxhijau');
+            }
+          }
+        //lanjut
+        setTimeout(function (){
+        document.getElementById('lanjut7').className = document.getElementById('lanjut7').className.replace('hilang','');
+        }, 500)
+        } else{
+
+          if (jawaban[11].className.indexOf('boxmerah') == -1) {
+            if (jawaban[11].className.indexOf('boxhijau') == -1) {
+              jawaban[11].className += ' boxmerah';
+            } else {
+              jawaban[11].className = jawaban[11].className.replace('boxhijau', 'boxmerah');
+            }
+          }
+        }
+
+      }
+
+    }
+
+    if(i==12){
+
+      if(jawaban[12].value.length==12){
+
+        if(jawaban[12].value==penyelesaian){
+          //boxwarna
+          if (jawaban[12].className.indexOf('boxhijau') == -1) {
+            if (jawaban[12].className.indexOf('boxmerah') == -1) {
+              jawaban[12].className += ' boxhijau';
+            } else {
+              jawaban[12].className = jawaban[10].className.replace('boxmerah', 'boxhijau');
+            }
+          }
+     
+        } else{
+
+          if (jawaban[12].className.indexOf('boxmerah') == -1) {
+            if (jawaban[12].className.indexOf('boxhijau') == -1) {
+              jawaban[12].className += ' boxmerah';
+            } else {
+              jawaban[12].className = jawaban[12].className.replace('boxhijau', 'boxmerah');
+            }
+          }
+        }
+
+      }
+
+    }
 
   })
 

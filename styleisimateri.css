@@ -257,7 +257,7 @@
 }
 
 .jjj{
-  height: 150px !important;
+  height: 190px 
 }
 .hilang{
   display:none;
@@ -284,7 +284,7 @@
     font-weight: 600;
     color: #127c12;
     font-style: italic;
-    margin-top: 540px;
+   
     }
     
   .arahanrangkuman{
@@ -449,10 +449,17 @@
     padding: 14px;
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: -6px;
-
-
-    
+    margin-left: -6px;  
+  }
+  .pertanyaansub1{
+    width: 988px;
+    height: 580px;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+   
   }
   .marimencobasubsub1{
     width: 988px;
@@ -465,6 +472,18 @@
     margin-left: -6px;
     
   }
+  .marimencobpenyelesaiansub1{
+    width: 988px;
+    height: 1472px;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+
+
   .tempatnomor {
     width: 988px;
     height: auto;
