@@ -6,7 +6,19 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     
   }
+  .mundur1{
+    text-indent: 72px;
+  }
+  .mundur2{
+    text-indent: 138px;
+  }
   
+  .mundur3{
+    text-indent: 195px;
+  }
+  .mundur4{
+    text-indent: 43px;
+  }
   /* Header coyy*/
   header {
     background-image: url(judulfoto.png);
@@ -396,6 +408,16 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
+  .kotakfaktor{
+    width: 300;
+    height:50px;
+    border: #357030 solid 2px;
+    border-radius: 8px;
+    padding:5px;
+    background-color: #77e66d;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
   .marimengamati{
     width: 990px;
     height: auto;
@@ -417,6 +439,15 @@
   .maripecahkan{
     width: 990px;
     height: 1272px;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .maripecahkanfaktor{
+    width: 990px;
+    height: 1600px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 10px;
@@ -493,6 +524,17 @@
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 2px;
+  }
+  .tempatnomorsub1 {
+    width: 988px;
+    height: auto;
+    border: dotted #357030 5px;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #ceffca;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    margin-top: -318px;
   }
   .langkah1{
     width: 100%;
