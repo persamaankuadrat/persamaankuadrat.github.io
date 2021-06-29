@@ -63,8 +63,15 @@
                     </p>
 
                 <p class="hilang" id="lanjut6">
-                  Jadi, \[x = 2\] atau \[x = 3\] merupakan  <input type="text" class="input3" maxlength="12">  (akar) persamaan \[x^2 + 9x + 18 = 0\]
-              
+                  Jadi, \[x = 2\] atau \[x = 3\] merupakan [  
+                  <input onclick="checksalah()"
+                  type="radio" id="penyelesaian" name="gender" value="penyelesaian">
+                  <label for="penyelesaian">Penyelesaian</label>
+                  <input onclick="checkbenar()"
+                  type="radio" id="bknpenye" name="gender" value="bknpenye">
+                  <label for="bknpenye">Bukan Penyelesaian</label>
+                  ] (akar) persamaan \[x^2 + 9x + 18 = 0\]
+                  <p id="jawaban"></p>
                 </p>
               </li>
               

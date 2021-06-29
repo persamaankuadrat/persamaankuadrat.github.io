@@ -52,26 +52,33 @@
 
                     <p class="mundur5 hilang" id="lanjut4">
                         
-                        \[\Leftrightarrow\] \[2 \cdot(\]<input type="text" class="input1" maxlength="1">&emsp; \[+ (\] &emsp;<input type="text" class="input1" maxlength="3"> \[) - 6 = 0\]
+                        \[\Leftrightarrow\] \[2 \cdot(\]<input type="text" class="input1" maxlength="1">\[)+ (\] <input type="text" class="input1" maxlength="3"> \[) - 6 = 0\]
                     </p>
 
                     <p class="mundur5 hilang" id="lanjut5">
                         \[\Leftrightarrow\] 
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        &emsp;&emsp;&emsp;
                        
                          <input type="text" class="input1" maxlength="2"> \[ + (\] <input type="text" class="input1" maxlength="3"> \[) - 6 = 0\]
                     </p>
 
                     <p class="mundur5 hilang" id="lanjut6">
                       \[\Leftrightarrow\] 
-                      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                      &emsp;&emsp;&emsp;&emsp;&emsp;
                      <input type="text" class="input1" maxlength="1"> \[ = 0\]
                   
                     </p>
 
                 <p class="hilang" id="lanjut7">
-                  Jadi, \[x = 1\] atau \[x = -3\] merupakan  <input type="text" class="input3" maxlength="12">  (akar) persamaan \[2x^2 + 4x - 6 = 0\]
-              
+                  Jadi, \[x = 1\] atau \[x = -3\] merupakan [  
+                  <input onclick="checkbenar()"
+                  type="radio" id="penyelesaian" name="gender" value="penyelesaian">
+                  <label for="penyelesaian">Penyelesaian</label>
+                  <input onclick="checksalah()"
+                  type="radio" id="bknpenye" name="gender" value="bknpenye">
+                  <label for="bknpenye">Bukan Penyelesaian</label>
+                  ] (akar) persamaan \[2x^2 + 4x - 6 = 0\]
+                  <p id="jawaban"></p>
                 </p>
               </li>
               

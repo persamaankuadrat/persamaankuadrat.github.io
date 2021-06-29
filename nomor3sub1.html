@@ -67,8 +67,15 @@
                     </p>
 
                 <p class="hilang" id="lanjut6">
-                  Jadi, \[x = 2\] atau \[x = 5\] merupakan  <input type="text" class="input3" maxlength="12">  (akar) persamaan \[x^2 - 7x + 10 = 0\]
-              
+                  Jadi, \[x = 2\] atau \[x = 5\] merupakan [
+                  <input onclick="checkbenar()"
+                  type="radio" id="penyelesaian" name="gender" value="penyelesaian">
+                  <label for="penyelesaian">Penyelesaian</label>
+                  <input onclick="checksalah()"
+                  type="radio" id="bknpenye" name="gender" value="bknpenye">
+                  <label for="bknpenye">Bukan Penyelesaian</label>
+                  ] (akar) persamaan \[x^2 - 7x + 10 = 0\]
+                  <p id="jawaban"></p>
                 </p>
               </li>
               

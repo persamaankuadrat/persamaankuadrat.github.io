@@ -343,30 +343,7 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==10){
 
-      if(jawaban[10].value.length==12){
-
-        if(jawaban[10].value== 'penyelesaian'){
-          //boxwarna
-          if (jawaban[10].className.indexOf('boxhijau') == -1) {
-            if (jawaban[10].className.indexOf('boxmerah') == -1) {
-              jawaban[10].className += ' boxhijau';
-            } else {
-              jawaban[10].className = jawaban[10].className.replace('boxmerah', 'boxhijau');
-            }
-          }
-
-        } else{
-
-          if (jawaban[10].className.indexOf('boxmerah') == -1) {
-            if (jawaban[10].className.indexOf('boxhijau') == -1) {
-              jawaban[10].className += ' boxmerah';
-            } else {
-              jawaban[10].className = jawaban[10].className.replace('boxhijau', 'boxmerah');
-            }
-          }
-        }
-
-      }
+      console.log("akhir");
 
     }
 
@@ -375,3 +352,15 @@ for (let i=0; i<jawaban.length; i++){
 
 
 }
+
+
+
+function checksalah() {
+  console.log("salah");
+  document.getElementById("jawaban").innerHTML="<span style='color: red';>jawaban salah</span>";
+}
+function checkbenar() {
+  console.log("benar");
+  document.getElementById("jawaban").innerHTML="<span style='color: green';>jawaban benar</span>";
+}
+

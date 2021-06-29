@@ -403,34 +403,23 @@ for (let i=0; i<jawaban.length; i++){
 
     if(i==12){
 
-      if(jawaban[12].value.length==12){
-
-        if(jawaban[12].value==penyelesaian){
-          //boxwarna
-          if (jawaban[12].className.indexOf('boxhijau') == -1) {
-            if (jawaban[12].className.indexOf('boxmerah') == -1) {
-              jawaban[12].className += ' boxhijau';
-            } else {
-              jawaban[12].className = jawaban[10].className.replace('boxmerah', 'boxhijau');
-            }
-          }
-     
-        } else{
-
-          if (jawaban[12].className.indexOf('boxmerah') == -1) {
-            if (jawaban[12].className.indexOf('boxhijau') == -1) {
-              jawaban[12].className += ' boxmerah';
-            } else {
-              jawaban[12].className = jawaban[12].className.replace('boxhijau', 'boxmerah');
-            }
-          }
-        }
-
-      }
+      console.log("akhir");
 
     }
+
 
   })
 
 
+}
+
+
+
+function checksalah() {
+  console.log("salah");
+  document.getElementById("jawaban").innerHTML="<span style='color: red';>jawaban salah</span>";
+}
+function checkbenar() {
+  console.log("benar");
+  document.getElementById("jawaban").innerHTML="<span style='color: green';>jawaban benar</span>";
 }
