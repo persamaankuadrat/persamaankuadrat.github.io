@@ -296,7 +296,7 @@
     font-weight: 600;
     color: #127c12;
     font-style: italic;
-   margin-top: -190px;
+   
     }
     
   .arahanrangkuman{
@@ -523,19 +523,12 @@
     padding: 14px;
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 2px;
-  }
-  .tempatnomorsub1 {
-    width: 988px;
-    height: auto;
-    border: dotted #357030 5px;
-    border-radius: 8px;
-    padding: 14px;
-    background-color: #ceffca;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 2px;
+    margin-left: 0px;
     margin-top: -300px;
-  }
+}
+
+  
+  
   .langkah1{
     width: 100%;
     height: 16px;

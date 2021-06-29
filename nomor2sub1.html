@@ -15,10 +15,8 @@
             <b> Cara menjawab soal : </b><br>
             <ol>
               <li>Isi kotak untuk mengisi jawaban.</li><br>
-              <li>Isi jawaban hingga berwarna hijau, karena jika jawaban benar akan berwarna hijau dan jika salah berwarna merah.</li><br>
-
-              
-          </ol>
+              <li>Isi jawaban hingga berwarna hijau, karena jika jawaban benar akan berwarna hijau dan jika salah berwarna merah.</li><br> 
+            </ol>
           </div>
   
 <br>
@@ -67,8 +65,15 @@
                     </p>
 
                 <p class="hilang" id="lanjut6">
-                  Jadi, \[x = -4\] atau \[x = -1\] merupakan  <input type="text" class="input3" maxlength="12">  (akar) persamaan \[x^2 + 5x + 4 = 0\]
-              
+                  Jadi, \[x = -4\] atau \[x = -1\] merupakan [ 
+                  <input onclick="checkbenar()"
+                  type="radio" id="penyelesaian" name="gender" value="penyelesaian">
+                  <label for="penyelesaian">Penyelesaian</label>
+                  <input onclick="checksalah()"
+                  type="radio" id="bknpenye" name="gender" value="bknpenye">
+                  <label for="bknpenye">Bukan Penyelesaian</label>
+                  ] (akar) persamaan \[x^2 + 5x + 4 = 0\]
+                  <p id="jawaban"></p> 
                 </p>
               </li>
            
