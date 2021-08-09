@@ -2,14 +2,14 @@
 <head>
 <link rel="icon" href="akarx.png">
 <title>Persamaan Kuadrat</title>
-<link href="styleisimateri.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="cssfaktor.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
 </head>
 <body>
 
@@ -91,6 +91,7 @@
             <li>Siswa mampu menyelesaikan persamaan kuadrat dengan cara memfaktorkan.</li><br>
             <li>Siswa mampu menyelesaikan persamaan kuadrat dengan cara melegkapkan kuadrat sempurna.</li><br>
             <li>Siswa mampu menyelesaikan persamaan kuadrat dengan menggunakan rumus kuadratis.</li><br>
+            <li>Siswa dapat menyelesaikan masalah yang berkaitan dengan persamaan kuadrat</li>
         </ol>
         </div>
 
@@ -174,61 +175,108 @@
 <br>
 <div class="marimencoba">
   <img src="marimencobai.png" width="300" height="70" class="gmb">
-    <p>Tentukan nilai <var>a</var>, <var>b</var>, dan <var>c</var> dari setiap persamaan kuadrat berikut ini.</p>
-    a. <var>2x<sup>2</sup> + 3x - 2 = 0</var>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selesaikan persamaan kuadrat berikut.<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. &nbsp;\[x^{2}-2x+3=0\] <br>
+
+    </p>
     <br>
     <center>
       <img src="Kolom Interaktif.png"><br>
-     <button class="isimateri btn">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>   
-     <div id="isimateri" class="hilang jjj">
+     <button class="isimateri petunjuk btn">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>  </center> 
+     <div id="isipetunjuk" class="hilang jjj">
         <b>Cara menjawab soal : </b><br>
         <ol>
-          <li>Tarik angka yang telah disediakan kedalam kolom jawaban.</li><br>
-          <li>Klik tombol "Cek Jawaban" untuk mengetahui jawaban tersebut benar atau salah .</li><br>
-          <li>Jawaban yang benar akan tepat pada posisinya dan jawaban yang salah akan kembali ke dalam urutan angka yang telah disediakan.</li><br>
-          <li>Klik tombol "Ulang" jika ingin mengulangi menjawab soal.</li>
-      </ol>
+          <li>Isi kotak untuk mengisi jawaban.</li><br>
+          <li>Isi jawaban hingga berwarna hijau, karena jika jawaban benar akan berwarna hijau dan jika salah berwarna merah.</li><br>
+        </ol>
       </div><br>
-      <div class="divscratch">
-        <iframe class="scratch" src="mencoba1.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div>
-    </center>
-      <p>b. <var>4x<sup>2</sup> + 16 = 0</var><br>
-      <center>
-        <div class="divscratch">
-          <iframe class="scratch" src="mencoba2.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div>
-        </center>
-       <p>c. <var>3x<sup>2</sup> &minus; x = 0</var></p>
-      <center>
-        <div class="divscratch">
-           <iframe class="scratch" src="mencoba3.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div>
-          </center>
-    </p></div>
+      <ol type="a">
+        <li>
+          Diketahui persamaan kuadrat \[x^{2} - 2x + 3 = 0\]<br>
+          Tentukan bilangan yang memenuhi \[b\] yakni <input type="text" value="" placeholder="..p.." class="input1" maxlength="1"> \[+\] <input type="text" value="" placeholder="..q.." class="input1" maxlength="2"> \[= -2\]
+          <p class="mundur hilang" id="lanjut1">
+          Tentukan bilangan yang memenuhi \[c\] yakni <input type="text" value="" placeholder="..p.." class="input1" maxlength="1"> \[+\] <input type="text" value="" placeholder="..q.." class="input1" maxlength="2"> \[= 3\]
+          </p>
+          <p class="mundur hilang" id="lanjut2">
+          Sehingga nilai \[p = \]  <input type="text" value="" placeholder="...." class="input1" maxlength="1"> dan nilai \[q = \] <input type="text" value="" placeholder="...." class="input1" maxlength="2">
+          </p> 
+          <p class="mundur2 hilang" id="lanjut3">
+            \[x^{2}-2x+3=0\]<br><br>
+            \[\Leftrightarrow&emsp;&emsp;&emsp;&emsp; \left ( x + p \right )\left ( x + q \right )=0\]<br><br>
+            \[\Leftrightarrow&emsp;&emsp;&emsp;&emsp; ( x + \]<input type="text" value="" placeholder="..p.." class="input1" maxlength="1"> \[)\] 
+            \[( x + (\] <input type="text" value="" placeholder="..q.." class="input1" maxlength="2"> \[)) = 0 \]
+          </p>
+          <p class="mundur hilang" id="lanjut4">
+            \[\Leftrightarrow&emsp;&emsp;&emsp;&emsp; x + \] <input type="text" value="" placeholder="...." class="input1" maxlength="1">\[ = 0&emsp;atau&emsp;x + (\]<input type="text" value="" placeholder="...." class="input1" maxlength="2">\[) = 0  \]
+          </p>
+          <p class="mundur hilang" id="lanjut5">
+            \[\Leftrightarrow  &emsp;&emsp;&emsp;&emsp; x = \]<input type="text" value="" placeholder="...." class="input1" maxlength="2"> &emsp;atau &emsp; \[x = \]<input type="text" value="" placeholder="...." class="input1" maxlength="1"> 
+          </p>
+        </li>
+      </ol><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selesaikan persamaan kuadrat berikut.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. &nbsp;\[3x^{2}-5x-2=0\] <br>
+      </p> 
+        <center>
+          <img src="Kolom Interaktif.png">
+          <br>
+          <button class="isimateri petunjuk2 btn">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>   
+          <div id="petunjuk2" class="hilang">
+            <b>Cara menjawab soal : </b><br>
+            <ol>
+              <li>Tarik angka yang telah disediakan kedalam kolom jawaban.</li><br>
+              <li>Klik tombol "Cek Jawaban" untuk mengetahui jawaban tersebut benar atau salah .</li><br>
+              <li>Jawaban yang benar akan tepat pada posisinya dan jawaban yang salah akan kembali ke dalam urutan angka yang telah disediakan.</li><br>
+              <li>Klik tombol "Ulang" jika ingin mengulangi menjawab soal.</li>
+          </ol>
+          </div>
+          
+            <br>
+            <div class="divscratch">
+              <iframe class="scratch" src="soalBfix.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div> </p>
+              
+        </center> <br>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dari pengalaman diatas yang telah kita selesaikan, yakni dalam konsep bilangan, dapat diketahui bahwa perkalian dengan bilangan nol akan
+            menghasilkan nol. Sebaliknya, suatu perkalian apabila menghasilkan nol, sudah pasti salah satu bilangan yang dikalikan bernilai nol.
+         </p>
+              <center><div class="kotakfaktor2">
+                Jika \[p\cdot q = 0\], maka \[p = 0\] atau \[q = 0\] atau \[p = q = 0\]
+              </div></center><br>
+          Sebagai contoh,
+          <p>&diams; bila \[2x = 0\], maka pasti \[x = 0\]</p>
+          <p>&diams; bila \[2(x - 2) = 0\], maka pasti \[x - 2 = 0\]</p>
+          <p>&diams; bila \[x(x - 1) = 0\], maka \[x = 0\] atau \[x - 1 = 0\]</p>
+          <p>&diams; bila \[(x - 1)(x + 2) = 0\], maka \[x - 1 = 0\] atau \[x + 2 =</p>
+      </div>
+        
+    </div>
+
 
     <br>
         <div class="slideshow-container">
         
         <div class="mySlides">
-          <iframe src="https://persamaankuadrat.github.io/nomor1.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
+          <iframe src="https://persamaankuadrat.github.io/nomor1f.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
           </iframe>
         </div><!--penutup div nomor satu-->
 
         <div class="mySlides">
-          <iframe src="https://persamaankuadrat.github.io/nomor2.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
+          <iframe src="https://persamaankuadrat.github.io/nomor2f.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
           </iframe>
         </div><!--penutup div nomor dua-->
 
         <div class="mySlides">
-          <iframe src="https://persamaankuadrat.github.io/nomor3.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
+          <iframe src="https://persamaankuadrat.github.io/nomor3f.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
           </iframe>
         </div><!--penutup div nomor tiga-->
 
         <div class="mySlides">
-          <iframe src="https://persamaankuadrat.github.io/nomor4.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
+          <iframe src="https://persamaankuadrat.github.io/nomor4f.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
           </iframe>
         </div><!--penutup div nomor empat-->
 
         <div class="mySlides">
-          <iframe src="https://persamaankuadrat.github.io/nomor5.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
+          <iframe src="https://persamaankuadrat.github.io/nomor5f.html" title="W3Schools Free Online Web Tutorials"  allowtransparency="true" width="1000" height="900" frameborder="0" scrolling="no">
           </iframe>
         </div><!--penutup div nomor lima-->
         
@@ -258,6 +306,7 @@
     </div>
 </footer>
 <script src="isimateri.js"></script>
+<script src="jsfaktor.js"></script>
 <script src="javaumum11.js"></script>
 <script src="javaumum12.js"></script>
 <script src="javaumum21.js"></script>
