@@ -44,3 +44,4 @@ btn.addEventListener("click", function(){
 	console.log("ok")
 	jjj.classList.toggle("hilang");
 } );
+
