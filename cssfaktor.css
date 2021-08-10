@@ -512,7 +512,7 @@
   }
   .pertanyaan{
     width: 988px;
-    height: 390px;
+    height: 430px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 14px;
@@ -687,7 +687,7 @@ img {vertical-align: middle;}
   padding-top: 0px;
   padding-right: 50px;
   padding-bottom: 30px;
-  height: 490px; /*buat atur tinggi tombol123 */
+  height: 460px; /*buat atur tinggi tombol123 */
   position: relative;
   margin: auto;
   color: black;
