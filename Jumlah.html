@@ -2,7 +2,7 @@
 <head>
 <link rel="icon" href="akarx.png">
 <title>Persamaan Kuadrat</title>
-<link href="styleisimateri.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="cssjumlah.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -30,8 +30,8 @@
         <i class="fa fa-caret-down"></i>
       </button>
 
-      <div class="dropdown-content dropdown-containerr">
-        <a href="umum.html" class="hvr">1. Bentuk Umum</a>
+      <div class="dropdown-content dropdown-container">
+        <a href="umum.html">1. Bentuk Umum</a>
         <a href="bukanpenyelesaian.html">2. Penyelesaian dan Bukan Penyelesaian</a>
         <a href="rangkuman1.html">Rangkuman</a>
         <a href="materi.html">Kuis</a>
@@ -46,7 +46,7 @@
        <div class="dropdown-content dropdown-container">
          <a href="memfaktorkan.html">1. Memfaktorkan</a>
          <a href="kuadratsempurna.html">2. Melengkapkan Kuadrat Sempurna</a>
-         <a href="rumuskuadratis.html">3. Menggunakan Rumus Kuadratis</a>
+         <a href="rumuskuadratis.html" class="hvr">3. Menggunakan Rumus Kuadratis</a>
          <a href="rangkuman2.html">Rangkuman</a>
          <a href="materi.html">Kuis</a>
          
@@ -57,9 +57,9 @@
         <button class="dropbtn dropdown-btn" onclick="ftampil()">C. Sifat-sifat akar
           <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content dropdown-container">
+        <div class="dropdown-content dropdown-containerr">
           <a href="diskriminan.html">1. Diskriminan</a>
-          <a href="Jumlah.html">2. Jumlah dan Hasil Kali</a>
+          <a href="Jumlah.html"class="hvr"> 2. Jumlah dan Hasil Kali</a>
           <a href="hubungan.html">3. Hubungan Sifat Akar dan Koefisien Persamaan</a>
           <a href="rangkuman3.html">Rangkuman</a>
           <a href="materi.html">Kuis</a>
@@ -71,8 +71,6 @@
         <div class="dropdown-content dropdown-container">
           <a href="menyusunfaktor.html">1. Menggunakan Faktor</a>
           <a href="menyusunhasilkali.html">2. Menggunakan Rumus Jumlah dan Hasil Kali Akar-akar</a>
-
-          <a href="rangkuman4.html">Rangkuman</a>
           <a href="materi.html">Kuis</a>
         </div>
 
@@ -80,104 +78,81 @@
   
       </div>
       </nav>
-  <article>
+    <article>
       <div class="subsection">
-        A. Pengertian Persamaan Kuadrat
+        C. Sifat - sifat Akar
       </div>
       <button class="isimateri">Klik Untuk Melihat Tujuan Pembelajaran</button><br>
       <div id="isimateri" class="hilang">
-          <b> Tujuan Pembelajaran </b><br>
+          <b> Tujuan Pembelajaran </b>
           <ol>
-            <li>Siswa mampu menceritakan pengertian persamaan kuadrat.</li><br>
-            <li>Siswa mampu mendeskripsikan bentuk umum persamaan kuadrat.</li><br>
-            <li>Siswa mampu membedakan mana penyelesaian dan bukan penyelesaian persamaan kuadrat.</li><br>
-            <li>Siswa mampu mengidentifikasian yang mana konstanta, variabel, dan koefisien dalam bentuk umum persamaan kuadrat.</li>
-        </ol>
+            <li>Siswa mampu menjabarkan sifat - sifat akar persamaan.</li><br>
+            <li>Siswa mampu mengindentifikasikan karakteristik dari penyelesaian persamaan kuadrat dengan melihat nilai diskriminannya.</li><br>
+            <li>Siswa mampu menghitung jumlah dan hasil kali akar.</li><br>
+            <li>Siswa mampu menggali hubungan sifat akar dan koefisen persamaan.</li>
+            <li>Siswa dapat menyelesaikan masalah yang berkaitan dengan persamaan kuadrat.</li>
+        </ol><br>
         </div>
-
-        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dalam kehidupan sehari-hari, tanpa kita sadari kita sudah mengenal dan menggunakan persamaan kuadrat. Contohnya, kalian pasti pernah bukan bermain bola basket? Bola basket yang dilemparkan ke dalam ring akan dibuat melambung agar dapat masuk ke dalamnya. 
-          Gerakan bola yang melambung ke dalam ring merupakan contoh gambaran persamaan kuadrat.</p>
-          <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Persamaan kuadrat merupakan salah satu persamaan matematika dari variabel yang mempunyai pangkat tertinggi dua, dengan x merupakan variabel, a, b, merupakan koefisien, dan c merupakan konstanta.</p>
-          
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ada beberapa sifat akar - akar persamaan kuadrat yang perlu kita ketahui. Hal ini akan lebih memudahkan kita dalam menganalisis akar - akar dari suatu persamaan kuadrat. Untuk mengetahuinya, pelajarilah uraian berikut dengan seksama.</p>
+        <br>
             <div class="subsubsection1">
-            1. Bentuk umum 
+                 2. Jumlah dan Hasil Kali Akar
             </div>
-            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bentuk umum persamaan kuadrat dalam <var>x</var> adalah sebagai berikut.</p>
-            
-              <center><div class="bentukumum">
-                <var>ax<sup>2</sup>+bx+c=0</var>, dengan <var> a &#8800;</var> <var>0</var>
-              </div></center>
-        <br>
-        <ol type="circle">Keterangan :<br>
-          <li>\[x\] sebagai \[variabel\]</li><br>
-          <li>\[a\] sebagai \[koefisien\] \[x^2\]</li><br>
-          <li>\[b\] sebagai \[koefisien\] \[x\]</li><br>
-          <li>\[c\] sebagai \[konstanta\]</li><br>
-        </ol>
-        <br>
-  
-        
+
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kali ini yang akan dibahas adalah mengenai penjumlahan dan perkalian akar - akar persamaan kuadrat yang bisa diperoleh langsung dari bentuk umum persamaan kuadrat tanpa mencari akarnya terlebih dahulu.</p>
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbspHasil penjumlahan dan perkalian akar - akar persamaan kuadrat sebenarnya bisa kita peroleh dengan cara mencari akarnya terlebih dahulu, kemudian jumlahkan dan kalikan hasil yang diperoleh. 
+                        Namun, hal tersebut akan sulit dilakukan apabila persamaan kuadratnya sulit untuk dicari akarnya.
+                            Berikut ini rumus dari penjumlahan dan perkalian akar - akar persamaan kuadrat apabila diketahui bentuk umum persamaan kuadratnya.</p>
+                             <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jika persamaan kuadrat \[ax^{2} + bx + c = 0\] memiliki akar-akar \[x_{1}\] dan \[x_{2}\] maka berlaku :</p>
+                                 <center><div class="kotakfaktor">
+                                    <b>Jumlah akar-akar : \[x_{1} + x_{2} = \frac{-b}{a}\]</b>
+                                    </div></center>
+                                        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rumus tersebut diperoleh dari rumus untuk menentukan akar persamaan kuadrat. Berikut penjelasan bagaimana mendapat rumus tersebut.</p>
+                                            <p>Akar persamaan kuadrat \[ax^{2} + bx + c = 0\] adalah \[x_{1} = \frac{-b \pm  \sqrt{b^{2} - 4 a c}}{2a}\]&nbsp;&nbsp; atau &nbsp;&nbsp;\[x_{2} = \frac{-b \pm  \sqrt{b^{2} - 4 a c}}{2a}\]</p>
+                                                <p>Penjumlahan akar-akar persamaan kuadrat dari rumus diatas adalah sebagai berikut :</p>
+                                                <p class="mundur1">\[x_{1} + x_{2} = \frac{-b \pm  \sqrt{b^{2} - 4 a c}}{2a} + \frac{-b \pm  \sqrt{b^{2} - 4 a c}}{2a}\]</p>
+                                                <p class="mundur1">\[x_{1} + x_{2} = \frac{-2b}{2a}\]</p>
+                                                <p class="mundur1">\[x_{1} + x_{2} = \frac{-b}{a}\]</p>
+                                            
+                                                <center><div class="kotakfaktor">
+                                                    <b>Hasil kali akar-akar : \[x_{1} \cdot  x_{2} = \frac{c}{a}\]</b>
+                                                    </div></center>
+
+                                                <p>Perkalian akar-akar persamaan kuadrat dari rumus diatas adalah sebagai berikut :</p>
+                                                <p class="mundur1">\[x_{1} \times  x_{2} = \frac{-b \pm  \sqrt{b^{2} - 4 a c}}{2a} \times \frac{-b \pm  \sqrt{b^{2} - 4 a c}}{2a}\]</p>
+                                                <p class="mundur1">\[x_{1} \times x_{2} = \frac{\left ( -b \right )^{2} + \left ( \sqrt{b^{2} - 4 a c} \right )^{2}}{\left ( 2a \right )^{2}}\]</p>
+                                                <p class="mundur1">\[x_{1} \times x_{2} = \frac{b^{2} - \left ( b^{2} - 4 a c \right )}{4a^{2}}\]</p>
+                                                <p class="mundur1">\[x_{1} \times x_{2} = \frac{4 ac}{4a^{2}}\]</p>
+                                                <p class="mundur1">\[x_{1} \times x_{2} = \frac{c}{a}\]</p>
+                    
+                                   <br>
         <div class="marimengamati">
           <img src="marimengamati.png" width="300" height="70" class="gmb">
-          <br>
-          <center><img src="basket4.png" width="330" height="300" class="gmbr"></center>
-        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar di atas memperlihatkan seorang anak yang sedang melempar bola basket ke dalam ring, dapat kita pelajari saat memperkiraan bola yang akan masuk ke dalam ring tersebut adalah contoh penerapan persamaan kuadrat dalam kehidupan sehari-hari. 
-          Yakni dari melambungkan bola basket ke dalam ring tersebut diperoleh persamaan kuadrat <var>2x<sup>2</sup> -3x + 1 = 0</var></p>
+          <p>Pada sebuah persamaan kuadrat diketahui \[a\] dan \[b\] adalah akar-akar dari \[2x^{2} - px + 6 = 0\]. Serta nilai dari \[a + b = 12\]</p>
         </div>
-<br>
+        <br>
+
         <div class="marimenanya">
           <img src="marimenanya.png" width="300" height="70" class="gmb">
-          <p>Bagaimana cara menentukan nilai a,b, dan c dari 
-          persamaan kuadrat <var>2x<sup>2</sup> -3x + 1 = 0</var> saat bola akan dilambungkan kedalam ring?</p>
+          <p>bagaimana cara menentukan nilai \[p\] dengan menggunakan rumus penjumlahan akar-akar? </p>
         </div>
-        
-<br>
+        <br>
+
         <div class="maripecahkan">
-        <img src="marimemecahkan.png" width="430" height="70" class="gmb">
-        <div class="langkah1">Langkah 1</div>
-        <p>Wajib mengingat ini :</p>
-        <div class="kotaklangkah1">
-          <var>a = koefisien x <sup>2</sup></var><br>
-          <var>b = koefisien x </var><br>
-          <var>c = konstanta</var><br>
-          <var>x = variable</var><br>
-        </div><br>
-        <div class="langkah1">Langkah 2</div>
-        <p>Menyesuaikan :</p>
-        <div class="kotaklangkah2">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<var>2x<sup>2</sup> - 3x + 1 = 0</var><br>
-          <img src="panah2.png" class="panah2"><img src="panah2.png" class="panah2"><img src="panah2.png" class="panah2">
-          <br>
-          a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c
-        </div>
-        <p>Dikarenakan <b><var>a</var> merupakan koefisien dari <var>x<sup>2</sup></var></b>, kemudian <b><var>b</var> adalah
-           koefisien dari <var>x</var></b>, dan <b><var>c</var> adalah konstanta</b> maka, nilai <var>a</var>, <var>b</var>, dan <var>c</var>
-           dari persamaan <var>2x<sup>2</sup> - 3x + 1 = 0</var> adalah <var>a = 2</var>, <var>b = -3</var>, dan <var>c = 1</var>
-          <br><br>
-          <b><font color="blue">Variabel</font></b> adalah lambang pengganti suatu bilangan yang belum diketahui nilainya dengan jelas.<br>
-          Contoh:<br>
-          Suatu biangan jika dikalikan 5 kemudian dikurangi 3, hasilnya adalah 12. Buatlah bentuk persamaannya!<br>
-          Jawab:<br>
-          Misalkan bilangan tersebut <var>x</var> berarti <var>5x-3=12</var>, maka <b><var>x</var></b> merupakan variabel.<br><br>
-          <b><font color="blue">Koefisien</font></b> adalah bilangan pada bentuk aljabar yang mengandung variabel.<br>
-          Contoh:<br>
-          Tentukan koefisien pada bentuk aljabar berikut.<br>
-          a. <var>5x + 3x -1</var>
-          b. <var>2x - 1</var><br>
-          Jawab:<br>
-          a. Koefisien dari <var>5x + 3x -1</var> adalah 5 dan 3<br>
-          b. Koefisien dari <var>2x - 1</var> adalah 2<br><br>
-          <b><font color="blue">Konstanta</font></b> adalah suku dari suatu bentuk aljabar yang berupa bilangan dan tidak memuat variabel
-          atau bisa dikatakan dia hanya berdiri sendiri tanpa variabel.<br>
-          Contoh:<br>
-          Tentukan konstanta pada bentuk aljabar berikut.<br>
-          a. <var>2x + 3xy + 5x - y - 4</var><br>
-          b. <var>3 + 7y - x</var><br>
-          Jawab:<br>
-          a. Konstanta adalah suku yang tidak memuat variabel, maka konstanta dari <var>2x + 3xy + 5x - y - 4</var> adalah <var>-4</var><br>
-          b. Konstanta adalah suku yang tidak memuat variabel, maka konstanta dari <var>3 + 7y - x</var> adalah <var>3</var><br>
-          </p>
-        </div>
+         <img src="marimemecahkan.png" width="430" height="70" class="gmb"><br>
+            <p>Diketahui: </p>
+            <p class="mundur1">\[a = 2\]</p>
+            <p class="mundur1">\[b = -p\]</p>
+            <p class="mundur1">\[c = 6\]</p>
+            <p class="mundur1">\[a + b = 12\]</p>
+
+            <p>subtitusikan pada rumus penjumlahan akar-akar</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\Leftrightarrow\] &nbsp;&nbsp;&nbsp;&nbsp;\[a + b = \frac{-b}{a}\]</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\Leftrightarrow\] &nbsp;&nbsp;&nbsp;&nbsp;\[12 = \frac{-\left ( -p \right )}{a}\]</p>
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\Leftrightarrow\] &nbsp;&nbsp;&nbsp;&nbsp;\[12 = \frac{p}{a}\]</p>
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\Leftrightarrow\] &nbsp;&nbsp;&nbsp;&nbsp;\[p = 24\]
+                        <p>Jadi, nilai dari \[p\] dari persamaan kuadrat \[2x^{2} - px + 6 = 0\] adalah 24</p>
+         </div>
 <br>
 <div class="marimencoba">
   <img src="marimencobai.png" width="300" height="70" class="gmb">
@@ -260,16 +235,10 @@
 </body>
 <footer>
     <div id="footer">
-      <a href="isi materi.html" class="previous"><img src="sebelumnya.png" width="250px" height="60px"></a>
-      <a href="bukanpenyelesaian.html" class="next"><img src="selanjutnya.png" width="250px" height="60px"></a>
+      <a href="diskriminan.html" class="previous">&laquo; Sebelumnya</a>
+      <a href="hubungan.html" class="next">Selanjutnya &raquo;</a>
     </div>
 </footer>
-
-<div class="petunjuk"></div>
-<div class="petunjuk2"></div>
-<div class="petunjuk3"></div>
-<!-- <div id="isimateri"></div> -->
-<div class="mySlides"></div>
 <script src="isimateri.js"></script>
 <script src="javaumum11.js"></script>
 <script src="javaumum12.js"></script>

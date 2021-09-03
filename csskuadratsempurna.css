@@ -249,13 +249,15 @@
   margin-top: 10px;
 }
 
+.isimaterin:hover {background-color: #ff8a80}
+
 .isimateri:active {
   background-color: #00ffff;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-#isimateri, #petunjuk , #petunjuk2{
+#isimateri {
   width: 100%;
   height: 230px;
   text-align: left;
@@ -265,28 +267,7 @@
   margin-top: 10px;
   padding: 10px;
 }
-#isimateri2 {
-  width: 100%;
-  height: 130px;
-  text-align: left;
-  background-color: #556B2F;
-  border: 3px #827717;
-  border-radius: 8px;
-  margin-top: 10px;
-  padding: 10px;
-}
-#petunjuk3{
-  width: 100%;
-  height: 130px;
-  text-align: left;
-  background-color: #556B2F;
-  border: 3px #827717;
-  border-radius: 8px;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-#isipetunjuk, #petunjuk, #petunjuk3{
+#isipetunjuk {
   width: 100%;
   height: 124px;
   text-align: left;
@@ -374,7 +355,7 @@
   
   footer {
     background-color: #827717;
-    
+    font-family: Baskerville, "Baskerville Old Face",serif; 
     padding: 1px;
     height: 60px;
     text-align: center;
@@ -441,16 +422,6 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
-  .kotakfaktor2{
-    width: 500;
-    height:50px;
-    border: #357030 solid 2px;
-    border-radius: 8px;
-    padding:5px;
-    background-color: #77e66d;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-  }
   .marimengamati{
     width: 990px;
     height: auto;
@@ -480,7 +451,7 @@
   }
   .maripecahkanfaktor{
     width: 990px;
-    height: 1780px;
+    height: 1250px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 10px;
@@ -507,7 +478,7 @@
   }
   .pertanyaan{
     width: 988px;
-    height: 430px;
+    height: 891px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 14px;
@@ -546,7 +517,9 @@
     font-family: 'Times New Roman', Times, serif;
     
   }
-
+  .apersepsi {
+    background-color: #B8860B !important;
+  }
 
   .tempatnomor {
     width: 988px;
@@ -604,35 +577,20 @@
     height: 40px;
     width: 40px;
   }
-  
-  .input1{
-    text-align: center;
-    width: 5%;
-    height: 25px;
-    margin-bottom: 5px;
-  }
-  .boxmerah{
-    border: 3px solid red;
-  }
-  
-  .boxhijau{
-    border: 3px solid green;
-  }
-  .mundur1{
-    text-indent: 72px;
-  }
+
+
 
 .panah2{
   height: 40px;
   width: 40px;
 }
   #keta{
-    margin-left: 32px;
-    margin-top: 8px;
+    margin-left: 6px;
+    margin-top: 6px;
   }
   #ketb{
-    margin-left: 135px;
-    margin-top: -28px;
+    margin-left: 47px;
+    margin-top: -29px;
 
   }
   #ketc{
@@ -640,16 +598,7 @@
     margin-top: -30px;
 
   }
-  #ketx1{
-    margin-left: 27px;
-    
-    
-  }
-  #ketx2{
-    margin-left: 57px;
-    
 
-  }
   .panahketa2{
     height: 40px;
     width: 37px;
@@ -682,7 +631,7 @@ img {vertical-align: middle;}
   padding-top: 0px;
   padding-right: 50px;
   padding-bottom: 30px;
-  height: 460px; /*buat atur tinggi tombol123 */
+  height: 920px; /*buat atur tinggi tombol123 */
   position: relative;
   margin: auto;
   color: black;
@@ -876,7 +825,7 @@ img {vertical-align: middle;}
     }
 
     #isimateri{
-      height: 130px;
+      height: 280px;
     }
 
   }

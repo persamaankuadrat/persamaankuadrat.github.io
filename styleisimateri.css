@@ -33,7 +33,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     width: 23%;
-    height: 480px;  
+    height: 498px;  
     background: #3CB371;
     padding: 20px;
     overflow-y: auto;
@@ -126,7 +126,9 @@
     color: white;
     background-color: #B8860B;
   }
-  
+  .apersepsi {
+    background-color: #B8860B; !important
+  }
   .aktif{
     background-color:  #B8860B;
     color: white;
@@ -339,7 +341,7 @@
     padding: 20px;
     width: 77%;
     background-color: #8FBC8F;
-    height: 480px; 
+    height: 498px; 
     overflow: scroll;
     overflow-x:hidden ;
   }
@@ -355,27 +357,22 @@
   
   footer {
     background-color: #827717;
-    font-family: Baskerville, "Baskerville Old Face",serif; 
-    padding: 17px;
-    height: 50px;
+ 
+    padding: 1px;
+    height: 60px;
     text-align: center;
     text-decoration: none;
-    color: white;
+
   }
 
   
 .previous {
-  margin-left: 25px;
-  background-color: #f1f1f1;
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   padding: 10px;
 }
 
 .next {
-  background-color: #556B2F;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
   padding: 10px;
 }
 
@@ -522,8 +519,7 @@
     font-family: 'Times New Roman', Times, serif;
     
   }
-
-
+  
   .tempatnomor {
     width: 988px;
     height: auto;

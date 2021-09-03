@@ -7,7 +7,7 @@
     
   }
   .mundur1{
-    text-indent: 72px;
+    text-indent: 125px; 
   }
   .mundur2{
     text-indent: 138px;
@@ -374,7 +374,7 @@
   
   footer {
     background-color: #827717;
-    
+    font-family: Baskerville, "Baskerville Old Face",serif; 
     padding: 1px;
     height: 60px;
     text-align: center;
@@ -422,8 +422,8 @@
   }
   
   .bentukumum{
-    width: 300;
-    height:50px;
+    width: 200;
+    height:40px;
     border: #357030 solid 2px;
     border-radius: 8px;
     padding:5px;
@@ -432,14 +432,14 @@
     font-family: 'Times New Roman', Times, serif;
   }
   .kotakfaktor{
-    width: 300;
-    height:50px;
+    width: 275;
+    height:60px;
     border: #357030 solid 2px;
     border-radius: 8px;
-    padding:5px;
+    padding:20px;
     background-color: #77e66d;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; 
   }
   .kotakfaktor2{
     width: 500;
@@ -471,31 +471,15 @@
   }
   .maripecahkan{
     width: 990px;
-    height: 1272px;
+    height: auto;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 10px;
     background-color: #ceffca;
     font-family: 'Times New Roman', Times, serif;
   }
-  .maripecahkanfaktor{
-    width: 990px;
-    height: 1780px;
-    border: dotted #357030 5px;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #ceffca;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  .maripecahkanA{
-    width: 990px;
-    height: 791px;
-    border: dotted #357030 5px;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #ceffca;
-    font-family: 'Times New Roman', Times, serif;
-  }
+ 
+ 
   .marimencoba{
     width: 990px;
     height: 2000px;

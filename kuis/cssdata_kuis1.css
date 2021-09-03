@@ -1,7 +1,7 @@
 .data_diri{
     width: 90%;
     text-align: justify;
-    border: 3px solid #ff5252;
+    border: 3px solid #0c7448;
     padding: 10px 20px 20px 20px;
 }
 
@@ -39,8 +39,8 @@ label {
 }
 
 .lanjut, .tmblUlang{
-    background-color: #ff5252;
-    color: white;
+    background-color: #45f092;
+    color: rgb(10, 9, 9);
     padding: 10px 30px 10px 30px;
     border-radius: 5px;
     margin-right: 10px;
@@ -51,12 +51,12 @@ label {
 }
 
 .lanjut:hover{
-    background-color: #ffb49e;
+    background-color: #14e9e9;
   color: black;
 }
 
 .tmblUlang:hover{
-    background-color: #ffb49e;
+    background-color: #13e42f;
   color: black;
 }
 
@@ -70,7 +70,7 @@ label {
 
 .bg_nav {
     width: 99%;
-    background-color: #ffb49e;
+    background-color: #3b7444;
     border-radius: 10px;
 }
 
@@ -78,7 +78,7 @@ label {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    border-bottom: 2px dotted #ff5252;
+    border-bottom: 2px;
 
 }
 
@@ -90,7 +90,7 @@ label {
 .bg_soal {
     width: 100%;
     padding: 10px 0;
-    background-color: #ffe2d9;
+    background-color: #9dfab1;
     border-radius: 10px;
 }
 
@@ -108,7 +108,7 @@ label {
     height: 18%;
     padding: 2px;
     text-align: center;
-    border: 2px solid #ff5252;
+    border: 2px solid #0aa130;
     border-radius: 5px;
     float: left;
     margin-left: 8.5%;
@@ -118,7 +118,7 @@ label {
 
 .soal_nav:hover {
     cursor: pointer;
-    background-color:#ec4141;
+    background-color:#1aafaf;
     color: white;
 }
 
@@ -150,7 +150,7 @@ label {
     font-size: 20px;
     text-align: center;
     width: 80%;
-    background-color: #ffb49e;
+    background-color: #1aafaf;
     cursor: pointer;
     height: 30px;
     border-radius: 10px;
@@ -181,7 +181,7 @@ label {
 }
 
 .pertanyaannya {
-    border-left: 4px solid #ffb49e;
+    border-left: 4px solid #0c7448;
     padding-left: 15px;
     font-size: 18px;
 }
@@ -269,13 +269,13 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 
 
 .nav_sebelum {
-    background-color: #ffb49e;
+    background-color: #14e9e9;
     width: 20%;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid  rgb(3, 31, 75);
+    border: 2px solid  rgb(60, 185, 194);
     cursor: pointer;
     display: inline-block;
     margin-right: 3%;
@@ -291,13 +291,13 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 }
 
 .nav_selanjut {
-    background-color: #ffb49e;
+    background-color: #94d6bb;
     width: 20%;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid  rgb(3, 31, 75);
+    border: 2px solid  rgb(60, 185, 194);
     cursor: pointer;
     display: inline-block;
     margin-right: 3%;

@@ -154,21 +154,23 @@ main{
 
 .subbab{
   width: 100%;
-  background-color: #f71c1c;
-  color: white;
+  background-color:#215538;
+  color: rgb(224, 236, 45);
   padding: 5px 0px 5px 0px;
   font-size: 30px;
+  margin-top: -5px;
+  font-family:fantasy;
 }
 
 .konten{
-	margin: 10px;
-	background-color: white;
-	height: 100%;
+
+	background-color:#8FBC8F;;
+	height: 527px;
 	padding: 15px;
   overflow: auto;
-  border: 3px dotted #ffb49e;
+  border: 5px dotted #0c7448;
   text-align: justify;
-  border-radius: 10px;
+
 }
 
 .gambar{
@@ -178,6 +180,7 @@ main{
 .judul{
   font-weight: bold;
   font-size: 35px;
+  width: 1366px;
 }
 
 .isi{
@@ -193,7 +196,7 @@ main{
 
 .kliktunjuk{
   margin: 5px 0px 5px 0px;
-  background-color: #ffb49e;
+  background-color: #0c7448;
   padding: 5px 13px;
   border-radius: 5px;
   width: 61%;
@@ -208,9 +211,9 @@ main{
 .tjk1{
   min-height: 5px;
   border-style: dotted;
-  border-color:#ff5252;
+  border-color: #0c7448;
   border-radius: 10px;
-  background-color: #f2f2f2;
+  background-color: #cddad3;
   padding: 10px 0px 5px 0px;
   display: block !important;
 }
@@ -229,12 +232,13 @@ main{
   overflow: auto;
   margin: 0px 0px 10px 10px;
   padding: 20px;
-  border-left: 8px solid #ff5252;
+  border-left: 8px solid #0c7448;
+  height: 336px;
 }
 
 .kembali{
   text-decoration: none;
-  background-color: #f71c1c;
+  background-color: #18681c;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -242,7 +246,7 @@ main{
 }
 
 .kembali:hover{
-  background-color: #ffb49e;
+  background-color: #14e9e9;
   color: black;
 }
 
@@ -267,13 +271,13 @@ main{
   padding: 20px;
   text-align: justify;
   box-sizing: border-box;
-  border: 2px solid #ffb49e;
+  border: 2px solid #0c7448;
   /* outline: 4px solid rgb(131, 176, 190);
   outline-offset: -20px; */
 }
 
 .disable {
-  background-color: rgb(133, 133, 133) !important;
+  background-color: #14e9e9 !important;
   color: rgb(37, 37, 37);
   cursor: default !important;
 }

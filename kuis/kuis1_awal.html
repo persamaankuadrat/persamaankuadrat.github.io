@@ -10,6 +10,16 @@
 	<link rel="stylesheet" type="text/css" href="csskuis1_awal.css">
 	<link rel="stylesheet" type="text/css" href="cssdata_kuis1.css">
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<!-- mathjax -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<style>
+		mjx-container {
+	display: inline-block !important;
+	margin: 0 !important;
+	heading: 4px 0px !important;
+	}
+	</style>
 </head>
 
 <body>
@@ -47,7 +57,7 @@
 				</div>
 				<div class="kotak">
 					<center>
-						<h2>DATA DIRI</h2>
+						<h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">DATA DIRI</h2>
 						<br>
 						<hr>
 						<br>
@@ -58,21 +68,21 @@
                             <label for="nama"> Sekolah 
                                 <select id="sekolah" name="sekolah" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
                                     <option value="0" selected="selected">-- PILIH SEKOLAH --</option>
-                                    <option value="1">SMP Negeri 2 Banjarmasin</option>
+                                    <option value="1">SMP Negeri Banjarmasin</option>
                                 </select>
                             </label>
                             <label for="nama"> Kelas 
                                 <select id="kelas" name="kelas" class="mundurr" aria-placeholder="-PILIH SEKOLAH-">
                                     <option value="0" selected="selected">-- PILIH KELAS --</option>
-                                    <option value="1">7A</option>
-                                    <option value="2">7B</option>
-                                    <option value="3">7C</option>
-                                    <option value="4">7D</option>
-                                    <option value="5">7E</option>
-                                    <option value="6">7F</option>
-                                    <option value="7">7G</option>
-                                    <option value="8">7H</option>
-                                    <option value="9">7I</option>
+                                    <option value="1">9A</option>
+                                    <option value="2">9B</option>
+                                    <option value="3">9C</option>
+                                    <option value="4">9D</option>
+                                    <option value="5">9E</option>
+                                    <option value="6">9F</option>
+                                    <option value="7">9G</option>
+                                    <option value="8">9H</option>
+                                    <option value="9">9I</option>
                                 </select>
                             </label>
                             <br>
@@ -614,7 +624,7 @@
 
 				<div class="bg_nav">
 					<div class="bg_full">
-						<p class="text">Nomor Soal</p>
+						<p class="text" style="color: aliceblue;">Nomor Soal</p>
 					</div>
 					<div class="bg_soal">
 						<div class="soal_nav belum">
