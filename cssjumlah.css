@@ -286,9 +286,9 @@
   padding: 10px;
 }
 
-#isipetunjuk, #petunjuk, #petunjuk3{
+#isipetunjuk, #petunjuk{
   width: 100%;
-  height: 124px;
+  height: 205px;
   text-align: left;
   background-color: #556B2F;
   border: 3px #827717;
@@ -442,11 +442,21 @@
     font-family: 'Times New Roman', Times, serif; 
   }
   .kotakfaktor2{
-    width: 500;
-    height:50px;
+    width: 400;
+    height:70px;
     border: #357030 solid 2px;
     border-radius: 8px;
-    padding:5px;
+    padding:20px;
+    background-color: #77e66d;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .kotakfaktor3{
+    width: 200;
+    height:70px;
+    border: #357030 solid 2px;
+    border-radius: 8px;
+    padding:12px;
     background-color: #77e66d;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -591,10 +601,12 @@
   
   .input1{
     text-align: center;
-    width: 5%;
-    height: 25px;
+    width: 40px;
+    height: 30px;
     margin-bottom: 5px;
+    margin-top: 5px;
   }
+
   .boxmerah{
     border: 3px solid red;
   }
@@ -871,3 +883,16 @@ img {vertical-align: middle;}
     display: inline !important;
     font-style:italic;
   }
+
+  span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+  span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+  }
+  span.frac > sup {border-bottom: 0.08em solid;}
+  span.frac > span {display: none;}

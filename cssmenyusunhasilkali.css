@@ -286,9 +286,9 @@
   padding: 10px;
 }
 
-#isipetunjuk, #petunjuk, #petunjuk3{
+#isipetunjuk, #petunjuk{
   width: 100%;
-  height: 124px;
+  height: 205px;
   text-align: left;
   background-color: #556B2F;
   border: 3px #827717;
@@ -509,7 +509,7 @@
  
   .marimencoba{
     width: 990px;
-    height: 2000px;
+    height: 1500px;
     border: dotted #357030 5px;
     border-radius: 8px;
     padding: 10px;
@@ -618,7 +618,7 @@
   
   .input1{
     text-align: center;
-    width: 5%;
+    width: 40px;
     height: 25px;
     margin-bottom: 5px;
   }

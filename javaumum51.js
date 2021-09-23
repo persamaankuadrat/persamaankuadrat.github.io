@@ -1,3 +1,7 @@
+
+
+
+
 function ceka5(){
     var jwb1 = document.getElementById("texta5");
    

@@ -385,10 +385,10 @@ for (let i=0; i<jawaban.length; i++){
               jawaban[11].className = jawaban[11].className.replace('boxmerah', 'boxhijau');
             }
           }
-          //lanjut
-          // setTimeout(function (){
-          //   document.getElementById('lanjut5').className = document.getElementById('lanjut5').className.replace('hilang','');
-          // }, 500)
+          lanjut
+          setTimeout(function (){
+            document.getElementById('lanjut5').className = document.getElementById('lanjut5').className.replace('hilang','');
+          }, 500)
         } else{
 
           if (jawaban[11].className.indexOf('boxmerah') == -1) {
@@ -406,7 +406,7 @@ for (let i=0; i<jawaban.length; i++){
 
 
 
-    if(i==32){
+    if(i==12){
 
       console.log("akhir");
 
@@ -420,12 +420,12 @@ for (let i=0; i<jawaban.length; i++){
 
 
 
-function checksalah() {
-  console.log("salah");
-  document.getElementById("jawaban").innerHTML="<span style='color: red';>jawaban salah</span>";
-}
-function checkbenar() {
-  console.log("benar");
-  document.getElementById("jawaban").innerHTML="<span style='color: green';>jawaban benar</span>";
-}
+// function checksalah() {
+//   console.log("salah");
+//   document.getElementById("jawaban").innerHTML="<span style='color: red';>jawaban salah</span>";
+// }
+// function checkbenar() {
+//   console.log("benar");
+//   document.getElementById("jawaban").innerHTML="<span style='color: green';>jawaban benar</span>";
+// }
 

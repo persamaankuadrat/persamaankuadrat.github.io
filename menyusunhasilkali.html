@@ -34,7 +34,7 @@
         <a href="umum.html">1. Bentuk Umum</a>
         <a href="bukanpenyelesaian.html">2. Penyelesaian dan Bukan Penyelesaian</a>
         <a href="rangkuman1.html">Rangkuman</a>
-        <a href="materi.html">Kuis</a>
+        <a href="kuis1_awal.html">Kuis</a>
       </div>
 
   
@@ -62,7 +62,7 @@
           <a href="Jumlah.html">2. Jumlah dan Hasil Kali</a>
           <a href="hubungan.html">3. Hubungan Sifat Akar dan Koefisien Persamaan</a>
           <a href="rangkuman3.html">Rangkuman</a>
-          <a href="materi.html">Kuis</a>
+          <a href="kuis3_ketiga.html">Kuis</a>
         </div>
 
         <button class="dropbtn dropdown-btn" onclick="ftampil()">D. Menyusun Persamaan Kuadrat
@@ -72,7 +72,7 @@
           <a href="menyusunfaktor.html" >1. Menggunakan Faktor</a>
           <a href="menyusunhasilkali.html" class="hvr" >2. Menggunakan Rumus Jumlah dan Hasil Kali Akar-akar</a>
           <a href="rangkuman4.html">Rangkuman</a>
-          <a href="materi.html">Kuis</a>
+          <a href="kuis4_keempat.html">Kuis</a>
         </div>
 
       <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
@@ -145,35 +145,120 @@
 <br>
 <div class="marimencoba">
   <img src="marimencobai.png" width="300" height="70" class="gmb">
-    <p>Tentukan nilai <var>a</var>, <var>b</var>, dan <var>c</var> dari setiap persamaan kuadrat berikut ini.</p>
-    a. <var>2x<sup>2</sup> + 3x - 2 = 0</var>
+    <p>Susunlah persamaan kuadrat berikut menggunakan rumus jumlah dan hasil kali akar, yang akar-akarnya 
+      diketahui :</p>
+      <p>a. &nbsp;&nbsp;&nbsp; \[x_{1} = 3\] &nbsp;&nbsp;dan&nbsp;&nbsp; \[x_{2} = 2\]</p>
+      <p>b. &nbsp;&nbsp;&nbsp; \[x_{1} = 2\] &nbsp;&nbsp;dan&nbsp;&nbsp; \[x_{2} = -8\]</p>
     <br>
     <center>
       <img src="Kolom Interaktif.png"><br>
-     <button class="isimateri btn">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>   
-     <div id="isimateri" class="hilang jjj">
+     <button class="isimateri petunjuk">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>   
+     <div id="petunjuk" class="hilang">
         <b>Cara menjawab soal : </b><br>
         <ol>
-          <li>Tarik angka yang telah disediakan kedalam kolom jawaban.</li><br>
-          <li>Klik tombol "Cek Jawaban" untuk mengetahui jawaban tersebut benar atau salah .</li><br>
-          <li>Jawaban yang benar akan tepat pada posisinya dan jawaban yang salah akan kembali ke dalam urutan angka yang telah disediakan.</li><br>
-          <li>Klik tombol "Ulang" jika ingin mengulangi menjawab soal.</li>
-      </ol>
-      </div><br>
-      <div class="divscratch">
-        <iframe class="scratch" src="mencoba1.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div>
-    </center>
-      <p>b. <var>4x<sup>2</sup> + 16 = 0</var><br>
-      <center>
-        <div class="divscratch">
-          <iframe class="scratch" src="mencoba2.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div>
-        </center>
-       <p>c. <var>3x<sup>2</sup> &minus; x = 0</var></p>
-      <center>
-        <div class="divscratch">
-           <iframe class="scratch" src="mencoba3.html" allowtransparency="true" width="600" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe> </div>
-          </center>
-    </p></div>
+          <li>Tuliskan jawaban pada kolom kotak yang sudah disediakan.</li><br>
+          <li>Setelah menulis jawaban pada kolom, ketuk bagian layar agar dapat melihat warna kotak.</li><br>
+          <li>Jika kotak berwarna hijau maka jawabanmu benar, jika berwarna merah atau tidak berwarna sekalipun maka jawabanmu salah.</li><br>
+          <li>Kolom jawaban akan berlanjut jika menjawab dengan benar.</li>
+       </ol>
+      </div></center><br><br>
+
+    <ol type="a">
+      <li> &nbsp;&nbsp;&nbsp;
+        Diketahui akar persamaan kuadrat : <br>
+          <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            \[x_{1} = \] <input type="text" class="input1" maxlength="1"></p>
+    
+            <p class="hilang" id="lanjut1">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              \[x_{2} = \] <input type="text" class="input1" maxlength="1"></p>
+    
+              <p class="hilang" id="lanjut2">
+                \[\Leftrightarrow\]&emsp; \[x^{2} - \left ( x_{1} + x_{2} \right ) + \left ( x_{1} \cdot x_{2} \right ) = 0\]<br><br>
+                \[\Leftrightarrow\]&emsp; \[x^{2} - (\] <input type="text" class="input1" maxlength="1"> \[+\] <input type="text" class="input1" maxlength="1"> \[) + (\] <input type="text" class="input1" maxlength="1"> \[\cdot\] <input type="text" class="input1" maxlength="1"> \[) = 0\] </p>
+
+                <p class="hilang" id="lanjut3">
+                  \[\Leftrightarrow\]&emsp; \[x^{2} - \] <input type="text" class="input1" maxlength="2"> \[+\] <input type="text" class="input1" maxlength="1">  \[= 0\]</p>
+
+                  <p class="hilang" id="lanjut4">
+                    Jadi, persamaan kuadrat yang akar-akarnyan \[3\] dan \[2\] yaitu :
+                    <input onclick="checkbenar()"
+                        type="radio" id="kembar" name="gender" value="kembar">
+                        <label for="kembar">\[x^{2} - 5x + 6 = 0\]</label><br>
+                       
+                        &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input onclick="checksalah()"
+                              type="radio" id="tdkpunya" name="gender" value="tdkpunya">
+                              <label for="tidakpunya">\[x^{2} + 3x + 2 = 0\]</label><br>
+                              
+                              &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <input onclick="checksalah()"
+                                    type="radio" id="berbeda" name="gender" value="berbeda">
+                                    <label for="berbeda">\[x^{2} + 5x - 6 = 0\]</label>
+                                
+                        <p id="jawaban"></p> 
+                    </p>
+
+      </li>
+
+      <li class="hilang" id="lanjut5"> &nbsp;&nbsp;&nbsp;
+        Diketahui akar persamaan kuadrat : <br>
+          <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            \[x_{1} = \] <input type="text" class="input1" maxlength="1"></p>
+    
+            <p class="hilang" id="lanjut6">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              \[x_{2} = \] <input type="text" class="input1" maxlength="2"></p>
+    
+              <p class="hilang" id="lanjut7">
+                \[\Leftrightarrow\]&emsp; \[x^{2} - \left ( x_{1} + x_{2} \right ) + \left ( x_{1} \cdot x_{2} \right ) = 0\]<br><br>
+                \[\Leftrightarrow\]&emsp; \[x^{2} - ( \] <input type="text" class="input1" maxlength="1"> \[ + ( \] <input type="text" class="input1" maxlength="2"> \[ ) ) + ( \] <input type="text" class="input1" maxlength="1"> \[\cdot ( \] <input type="text" class="input1" maxlength="2"> \[ ) ) = 0\] </p>
+
+                <p class="hilang" id="lanjut8">
+                  \[\Leftrightarrow\]&emsp; \[x^{2} - ( \] <input type="text" class="input1" maxlength="2"> \[ ) + ( \] <input type="text" class="input1" maxlength="3">  \[ ) = 0\]</p>
+
+                  <p class="hilang" id="lanjut9">
+                    \[\Leftrightarrow\]&emsp; \[x^{2} + \] <input type="text" class="input1" maxlength="2"> \[ - \] <input type="text" class="input1" maxlength="2">  \[= 0\]</p>
+
+                  </p>
+
+                  <p class="hilang" id="lanjut10">
+                    Jadi, persamaan kuadrat yang akar-akarnyan \[2\]&nbsp;&nbsp; dan &nbsp;&nbsp;\[-8\] yaitu :
+                    <input onclick="checksalahh()"
+                        type="radio" id="kembar" name="gender" value="kembar">
+                        <label for="kembar">\[x^{2} - 16x + 6 = 0\]</label><br>
+                       
+                        &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input onclick="checksalahh()"
+                              type="radio" id="tdkpunya" name="gender" value="tdkpunya">
+                              <label for="tidakpunya">\[x^{2} + 2x - 8 = 0\]</label><br>
+                              
+                              &emsp;&nbsp;&nbsp;&nbsp; &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <input onclick="checkbenarr()"
+                                    type="radio" id="berbeda" name="gender" value="berbeda">
+                                    <label for="berbeda">\[x^{2} + 6x - 16 = 0\]</label>
+                                
+                        <p id="jawaban1"></p> 
+                    </p>
+                    <p class="hilang" id="lanjut11">Selamat Jawabanmu Benar Semua ^_^</p>
+      </li>
+
+    </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+     
+      
+         
 
     <br>
         <div class="slideshow-container">
@@ -229,16 +314,8 @@
     </div>
 </footer>
 <script src="isimateri.js"></script>
-<script src="javaumum11.js"></script>
-<script src="javaumum12.js"></script>
-<script src="javaumum21.js"></script>
-<script src="javaumum22.js"></script>
-<script src="javaumum31.js"></script>
-<script src="javaumum32.js"></script>
-<script src="javaumum41.js"></script>
-<script src="javaumum42.js"></script>
-<script src="javaumum51.js"></script>
-<script src="javaumum52.js"></script>
+<script src="jsmenyusunhasilkali.js"></script>
+
 </article>
 
 </html>

@@ -1,3 +1,6 @@
+
+
+
 function ceka4(){
     var jwb1 = document.getElementById("texta4");
    
