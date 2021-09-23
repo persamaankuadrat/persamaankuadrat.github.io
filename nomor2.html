@@ -2,8 +2,8 @@
     <link href="styleisimateri.css" rel="stylesheet" type="text/css" media="screen" />
     <div class="pertanyaan">
       <img src="Pertanyaan.png" width="940" height="70" class="gmb"><br>
-        <button class="isimateri">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>
-        <div id="isimateri" class="hilang jjj">
+        <button class="isimateri petunjuk">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>
+        <div id="petunjuk" class="hilang">
             <b> Cara menjawab soal : </b><br>
             <ol>
               <li>Isi kotak untuk mengisi jawaban.</li><br>
@@ -15,21 +15,27 @@
           </ol>
           </div>
 
-
+<br>
 
       <p>2.) Mari pecahkan masalah tentukan nilai <var>a</var>, <var>b</var>, dan <var>c</var> dengan mengisi jawaban mu pada kolom berikut:</p>
       &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<var>p<sup>2</sup>+ &nbsp;2p&nbsp; &minus;&nbsp; 8 = 0</var><br>
           &nbsp;&nbsp;<img src="panah.png" class="panahketa2"><img src="panah.png" class="panahketa2"><img src="panah.png" class="panahketa2">
-          <br>
-            &nbsp;&nbsp;<input type="text" id="texta2" value="" placeholder="....." style=" width: 27px;">
-            &nbsp;&nbsp;<input type="text" id="textb2" value="" placeholder="....." style=" width: 27px;">
-            &nbsp;&nbsp;<input type="text" id="textc2" value="" placeholder="....." style=" width: 27px;">
-            <br>
-            <div id="keta2"></div> <div id="ketb2"></div> <div id="ketc2"></div>
-            <button id="ceka2" onclick="ceka2()" style="margin-top: 30px;">Cek Nilai a</button>
-            <button id="cekb2" onclick="cekb2()" style="margin-top: 30px;">Cek Nilai b</button>
-            <button id="cekc2" onclick="cekc2()" style="margin-top: 30px;">Cek Nilai c</button></p>
-      <p>Sehingga kita dapat memperoleh variabel, koefisien, dan konstantanya adalah: </p>  
+          <br>&nbsp;&nbsp;&nbsp;
+          <input  id="texta" type="text" value placeholder="...." style="width: 27px">&nbsp;&nbsp;
+          <input id="textb" type="text"  value placeholder="...." style="width: 27px">&nbsp;&nbsp;
+          <input id="textc" type="text"  value placeholder="...." style="width: 27px">
+        
+        </p>
+          <span id="ketx1"></span>
+          <span id="ketx2"></span>
+          <span id="ketx3"></span>
+            <br><button id="ceka"  style="margin-top: 30px;">Cek Nilai a</button>
+            <button id="cekb"  style="margin-top: 30px;">Cek Nilai b</button>
+            <button id="cekc"  style="margin-top: 30px;">Cek Nilai c</button>
+
+      
+      
+            <p>Sehingga kita dapat memperoleh variabel, koefisien, dan konstantanya adalah: </p>  
       
       <div class="pilihan2">
         <form name="form2">

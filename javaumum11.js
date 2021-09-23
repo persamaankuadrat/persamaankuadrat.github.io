@@ -1,53 +1,4 @@
 
-// function ceka(){
-//     var jwb1 = document.getElementById("texta");
-   
-//     var y = jwb1.value.toLowerCase();
-//     y=y.replace(/\s+/g, '');
-
-
-// if(y == "2"){
-//     document.getElementById("keta").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
-//   } else{
-//     document.getElementById("keta").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
-    
-//   }
-
-// }
-
-// function cekb(){
-//     var jwb1 = document.getElementById("textb");
-   
-//     var y = jwb1.value.toLowerCase();
-//     y=y.replace(/\s+/g, '');
-
-
-// if(y == "3"){
-//     document.getElementById("ketb").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
-//   } else{
-//     document.getElementById("ketb").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
-//   }
-
-// }
-
-// function cekc(){
-//     var jwb1 = document.getElementById("textc");
-   
-//     var y = jwb1.value.toLowerCase();
-//     y=y.replace(/\s+/g, '');
-
-
-// if(y == "-2"){
-//     document.getElementById("ketc").innerHTML = "<img src='benar.png' style='width:30px; height:30px;'>";
-//   } else{
-//     document.getElementById("ketc").innerHTML = "<img src='salah.png' style='width:30px; height:30px;'>";
-//   }
-
-// }
-
-// //batas slide 2
-
-
 let input1 = document.getElementById("texta");
 let input1a = document.getElementById("textb");
 let input1b = document.getElementById("textc");
@@ -61,7 +12,7 @@ let aksi1a = document.getElementById("ketx2");
 let aksi1b = document.getElementById("ketx3");
 
 btn1.addEventListener("click",function(){
-    if(input1.value == "1"){
+    if(input1.value == "2"){
         aksi1.innerHTML = `<img src="benar.png" >`
     }
     else{
@@ -71,7 +22,7 @@ btn1.addEventListener("click",function(){
   })
 
   btn1a.addEventListener("click",function(){
-    if(input1a.value == "2" ){
+    if(input1a.value == "3" ){
         aksi1a.innerHTML = `<img src="benar.png" >`
     }
     else{
@@ -81,7 +32,7 @@ btn1.addEventListener("click",function(){
   })
 
   btn1b.addEventListener("click",function(){
-    if(input1b.value == "3" ){
+    if(input1b.value == "-2" ){
         aksi1b.innerHTML = `<img src="benar.png" >`
     }
     else{

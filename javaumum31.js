@@ -1,48 +1,54 @@
 
+let input1 = document.getElementById("texta");
+let input1a = document.getElementById("textb");
+let input1b = document.getElementById("textc");
 
+let btn1 = document.getElementById("ceka");
+let btn1a = document.getElementById("cekb");
+let btn1b = document.getElementById("cekc");
 
-function ceka3(){
-    var jwb1 = document.getElementById("texta3");
-   
-    var y = jwb1.value.toLowerCase();
-    y=y.replace(/\s+/g, '');
+let aksi1 = document.getElementById("ketx1");
+let aksi1a = document.getElementById("ketx2");
+let aksi1b = document.getElementById("ketx3");
 
+btn1.addEventListener("click",function(){
+    if(input1.value == "-1"){
+        aksi1.innerHTML = `<img src="benar.png" >`
+    }
+    else{
+        aksi1.innerHTML = `<img src="salah.png" >`
+    }
+    MathJax.typeset();
+  })
 
-if(y == "-1"){
-    document.getElementById("keta3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;margin-left:5px;margin-top:8px;'>";
-  } else{
-    document.getElementById("keta3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;margin-left:5px;margin-top:8px;'>";
-  }
+  btn1a.addEventListener("click",function(){
+    if(input1a.value == "-2" ){
+        aksi1a.innerHTML = `<img src="benar.png" >`
+    }
+    else{
+        aksi1a.innerHTML = `<img src="salah.png" >`
+    }
+    MathJax.typeset();
+  })
 
-}
+  btn1b.addEventListener("click",function(){
+    if(input1b.value == "1" ){
+        aksi1b.innerHTML = `<img src="benar.png" >`
+    }
+    else{
+        aksi1b.innerHTML = `<img src="salah.png" >`
+    }
+    MathJax.typeset();
+  })
 
-function cekb3(){
-    var jwb1 = document.getElementById("textb3");
-   
-    var y = jwb1.value.toLowerCase();
-    y=y.replace(/\s+/g, '');
+  input1.addEventListener("keyup",function(){
+    input1.value = input1.value.split(' ').join('');
+  })
 
+  input1a.addEventListener("keyup",function(){
+    input1a.value = input1a.value.split(' ').join('');
+  })
 
-if(y == "-2"){
-    document.getElementById("ketb3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;margin-left:44px;margin-top:-30px;'>";
-  } else{
-    document.getElementById("ketb3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;margin-left:44px;margin-top:-30px;'>";
-  }
-
-}
-
-function cekc3(){
-    var jwb1 = document.getElementById("textc3");
-   
-    var y = jwb1.value.toLowerCase();
-    y=y.replace(/\s+/g, '');
-
-
-if(y == "1"){
-    document.getElementById("ketc3").innerHTML = "<img src='benar.png' style='width:30px; height:30px;margin-left:85px;margin-top:-30px;'>";
-  } else{
-    document.getElementById("ketc3").innerHTML = "<img src='salah.png' style='width:30px; height:30px;margin-left:85px;margin-top:-30px;'>";
-  }
-
-}
-
+  input1b.addEventListener("keyup",function(){
+    input1b.value = input1b.value.split(' ').join('');
+  })

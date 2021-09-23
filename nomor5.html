@@ -2,8 +2,8 @@
     <link href="styleisimateri.css" rel="stylesheet" type="text/css" media="screen" />
     <div class="pertanyaan">
       <img src="Pertanyaan.png" width="940" height="70" class="gmb"><br>
-      <button class="isimateri">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>
-      <div id="isimateri" class="hilang jjj">
+      <button class="isimateri petunjuk">Klik Untuk Melihat Petunjuk Pengisian Soal</button><br>
+      <div id="petunjuk" class="hilang">
           <b> Cara menjawab soal : </b><br>
           <ol>
             <li>Isi kotak untuk mengisi jawaban.</li><br>
@@ -18,15 +18,20 @@
       <p>5.) Mari pecahkan masalah tentukan nilai <var> &minus; x<sup>2</sup>  &minus; 9  &minus; x = 0</var> dengan mengisi jawaban mu pada kolom berikut: </p>
       &nbsp;<var> &minus;x<sup>2</sup>&nbsp;  &minus;&nbsp; 9 &nbsp; &minus;&nbsp; x = 0</var><br>
       <img src="panah.png" class="panah2"><img src="panah.png" class="panah2"><img src="panah.png" class="panah2">
-      <br>
-      &nbsp;&nbsp;<input type="text" id="texta5" value="" placeholder="....." style=" width: 27px;">
-      &nbsp;&nbsp;<input type="text" id="textc5" value="" placeholder="....." style=" width: 27px;">
-      &nbsp;&nbsp;<input type="text" id="textb5" value="" placeholder="....." style=" width: 27px;">
-      <br>
-      <div id="keta5"></div> <div id="ketb5"></div> <div id="ketc5"></div>
-      <button id="ceka5" onclick="ceka5()" style="margin-top: 30px;">Cek Nilai a</button>
-      <button id="cekc5" onclick="cekc5()" style="margin-top: 30px;">Cek Nilai c</button>
-      <button id="cekb5" onclick="cekb5()" style="margin-top: 30px;">Cek Nilai b</button>
+      <br>&nbsp;
+      <input  id="texta" type="text" value placeholder="...." style="width: 27px">&nbsp;&nbsp;
+      <input id="textb" type="text"  value placeholder="...." style="width: 27px">&nbsp;&nbsp;
+      <input id="textc" type="text"  value placeholder="...." style="width: 27px">
+    
+    </p>
+      <span id="ketx1"></span>
+      <span id="ketx2"></span>
+      <span id="ketx3"></span>
+        <br><button id="ceka"  style="margin-top: 30px;">Cek Nilai a</button>
+        <button id="cekb"  style="margin-top: 30px;">Cek Nilai b</button>
+        <button id="cekc"  style="margin-top: 30px;">Cek Nilai c</button>
+
+      
       <p>Sehingga kita dapat memperoleh variabel, koefisien, dan konstantanya adalah: </p>  
       
       <div class="pilihan5">
